@@ -34,16 +34,16 @@ export default function VehicleSelector() {
   const [selectedType, setSelectedType] = useState<string | undefined>(undefined);
   const [confirmedDetails, setConfirmedDetails] = useState<SelectedDetails | null>(null);
 
-  const manufacturers = useMemo(() => 
-    manufacturersData.map(m => m.name).sort((a, b) => a.localeCompare(b)), 
+  const sortedManufacturers = useMemo(() =>
+    [...manufacturersData].sort((a, b) => a.name.localeCompare(b.name)),
     []
   );
-  const allModels = useMemo(() => 
-    modelsData.map(m => m.name).sort((a, b) => a.localeCompare(b)), 
+  const sortedModels = useMemo(() =>
+    [...modelsData].sort((a, b) => a.name.localeCompare(b.name)),
     []
   );
-  const allTypes = useMemo(() => 
-    typesData.map(t => t.name).sort((a, b) => a.localeCompare(b)), 
+  const sortedTypes = useMemo(() =>
+    [...typesData].sort((a, b) => a.name.localeCompare(b.name)),
     []
   );
 
@@ -64,6 +64,7 @@ export default function VehicleSelector() {
 
   const handleConfirm = () => {
     if (selectedManufacturer && selectedModel && selectedType) {
+      // Find the first matching type by name. If names are not unique, this picks the first one.
       const typeDetail = typesData.find(t => t.name === selectedType);
       const newDetails = {
         manufacturer: selectedManufacturer,
@@ -98,24 +99,24 @@ export default function VehicleSelector() {
                 <SelectValue placeholder="-- Select Manufacturer --" />
               </SelectTrigger>
               <SelectContent>
-                {manufacturers.map(m => (
-                  <SelectItem key={m} value={m}>{m}</SelectItem>
+                {sortedManufacturers.map(m => (
+                  <SelectItem key={m.code} value={m.name}>{m.name}</SelectItem>
                 ))}
               </SelectContent>
             </Select>
 
             <Label htmlFor="model-select" className="text-sm text-foreground justify-self-start">Vehicle Model:</Label>
-            <Select 
-              value={selectedModel} 
-              onValueChange={setSelectedModel} 
-              disabled={!selectedManufacturer || allModels.length === 0}
+            <Select
+              value={selectedModel}
+              onValueChange={setSelectedModel}
+              disabled={!selectedManufacturer || sortedModels.length === 0}
             >
               <SelectTrigger id="model-select" className="w-full">
                 <SelectValue placeholder="-- Select Model --" />
               </SelectTrigger>
               <SelectContent>
-                {allModels.length > 0 ? allModels.map(model => (
-                  <SelectItem key={model} value={model}>{model}</SelectItem>
+                {sortedModels.length > 0 ? sortedModels.map(model => (
+                  <SelectItem key={model.code} value={model.name}>{model.name}</SelectItem>
                 )) : (
                   <div className="p-2 text-sm text-muted-foreground">
                     {selectedManufacturer ? "No models available" : "Select Manufacturer First"}
@@ -125,17 +126,17 @@ export default function VehicleSelector() {
             </Select>
 
             <Label htmlFor="type-select" className="text-sm text-foreground justify-self-start">Vehicle Type:</Label>
-            <Select 
-              value={selectedType} 
-              onValueChange={setSelectedType} 
-              disabled={!selectedModel || allTypes.length === 0}
+            <Select
+              value={selectedType}
+              onValueChange={setSelectedType}
+              disabled={!selectedModel || sortedTypes.length === 0}
             >
               <SelectTrigger id="type-select" className="w-full">
                 <SelectValue placeholder="-- Select Type --" />
               </SelectTrigger>
               <SelectContent>
-                {allTypes.length > 0 ? allTypes.map(type => (
-                  <SelectItem key={type} value={type}>{type}</SelectItem>
+                {sortedTypes.length > 0 ? sortedTypes.map(type => (
+                  <SelectItem key={type.code} value={type.name}>{type.name}</SelectItem>
                 )) : (
                   <div className="p-2 text-sm text-muted-foreground">
                     {selectedModel ? "No types available" : "Select Model First"}
@@ -156,7 +157,7 @@ export default function VehicleSelector() {
           <Button
             onClick={handleConfirm}
             disabled={!isFormComplete}
-            className="px-8" 
+            className="px-8"
             aria-label="Confirm selection"
           >
             OK
