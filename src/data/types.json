@@ -1,0 +1,272 @@
+[{
+    "code": "TD-16325",
+    "name": "316 i",
+    "builtFrom": "02/2002",
+    "builtTo": "02/2005",
+    "power": "115 KM / 85 KW",
+    "cubicCapacity": "1796 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-18822",
+    "name": "316 i",
+    "builtFrom": "06/2002",
+    "builtTo": "02/2005",
+    "power": "115 KM / 85 KW",
+    "cubicCapacity": "1596 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-15894",
+    "name": "316 i",
+    "builtFrom": "04/2000",
+    "builtTo": "02/2005",
+    "power": "105 KM / 77 KW",
+    "cubicCapacity": "1596 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-11042",
+    "name": "316 i",
+    "builtFrom": "09/1998",
+    "builtTo": "02/2005",
+    "power": "105 KM / 77 KW",
+    "cubicCapacity": "1895 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-16315",
+    "name": "318 d",
+    "builtFrom": "09/2001",
+    "builtTo": "03/2003",
+    "power": "116 KM / 85 KW",
+    "cubicCapacity": "1951 ccm",
+    "fuel": "olej napędowy",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-18465",
+    "name": "318 d",
+    "builtFrom": "03/2003",
+    "builtTo": "02/2005",
+    "power": "116 KM / 85 KW",
+    "cubicCapacity": "1995 ccm",
+    "fuel": "olej napędowy",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-8963",
+    "name": "318 i",
+    "builtFrom": "02/1998",
+    "builtTo": "09/2001",
+    "power": "118 KM / 87 KW",
+    "cubicCapacity": "1895 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-16198",
+    "name": "318 i",
+    "builtFrom": "09/2001",
+    "builtTo": "02/2005",
+    "power": "143 KM / 105 KW",
+    "cubicCapacity": "1995 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-16201",
+    "name": "320 d",
+    "builtFrom": "09/2001",
+    "builtTo": "02/2005",
+    "power": "150 KM / 110 KW",
+    "cubicCapacity": "1995 ccm",
+    "fuel": "olej napędowy",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-9045",
+    "name": "320 d",
+    "builtFrom": "04/1998",
+    "builtTo": "09/2001",
+    "power": "136 KM / 100 KW",
+    "cubicCapacity": "1951 ccm",
+    "fuel": "olej napędowy",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-54952",
+    "name": "320 d",
+    "builtFrom": "02/1998",
+    "builtTo": "04/2005",
+    "power": "129 KM / 95 KW",
+    "cubicCapacity": "1951 ccm",
+    "fuel": "olej napędowy",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-15452",
+    "name": "320 i",
+    "builtFrom": "09/2000",
+    "builtTo": "02/2005",
+    "power": "170 KM / 125 KW",
+    "cubicCapacity": "2171 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-9092",
+    "name": "320 i",
+    "builtFrom": "03/1998",
+    "builtTo": "09/2000",
+    "power": "150 KM / 110 KW",
+    "cubicCapacity": "1991 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-9091",
+    "name": "323 i",
+    "builtFrom": "03/1998",
+    "builtTo": "09/2000",
+    "power": "170 KM / 125 KW",
+    "cubicCapacity": "2494 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-106991",
+    "name": "325",
+    "builtFrom": "09/2000",
+    "builtTo": "04/2005",
+    "power": "186 KM / 137 KW",
+    "cubicCapacity": "2494 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-15454",
+    "name": "325 i",
+    "builtFrom": "09/2000",
+    "builtTo": "02/2005",
+    "power": "192 KM / 141 KW",
+    "cubicCapacity": "2494 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-15456",
+    "name": "325 xi",
+    "builtFrom": "09/2000",
+    "builtTo": "02/2005",
+    "power": "192 KM / 141 KW",
+    "cubicCapacity": "2494 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-35677",
+    "name": "325 xi",
+    "builtFrom": "09/2000",
+    "builtTo": "04/2005",
+    "power": "186 KM / 137 KW",
+    "cubicCapacity": "2494 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-8964",
+    "name": "328 i",
+    "builtFrom": "02/1998",
+    "builtTo": "06/2000",
+    "power": "193 KM / 142 KW",
+    "cubicCapacity": "2793 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-17351",
+    "name": "330 d",
+    "builtFrom": "03/2003",
+    "builtTo": "02/2005",
+    "power": "204 KM / 150 KW",
+    "cubicCapacity": "2993 ccm",
+    "fuel": "olej napędowy",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-13874",
+    "name": "330 d",
+    "builtFrom": "10/1999",
+    "builtTo": "02/2005",
+    "power": "184 KM / 135 KW",
+    "cubicCapacity": "2926 ccm",
+    "fuel": "olej napędowy",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-14922",
+    "name": "330 i",
+    "builtFrom": "06/2000",
+    "builtTo": "02/2005",
+    "power": "231 KM / 170 KW",
+    "cubicCapacity": "2979 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-55607",
+    "name": "330 i",
+    "builtFrom": "01/2001",
+    "builtTo": "04/2005",
+    "power": "228 KM / 168 KW",
+    "cubicCapacity": "2979 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-17352",
+    "name": "330 xd",
+    "builtFrom": "03/2003",
+    "builtTo": "02/2005",
+    "power": "204 KM / 150 KW",
+    "cubicCapacity": "2993 ccm",
+    "fuel": "olej napędowy",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-14774",
+    "name": "330 xd",
+    "builtFrom": "06/2000",
+    "builtTo": "02/2005",
+    "power": "184 KM / 135 KW",
+    "cubicCapacity": "2926 ccm",
+    "fuel": "olej napędowy",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-14802",
+    "name": "330 xi",
+    "builtFrom": "06/2000",
+    "builtTo": "02/2005",
+    "power": "231 KM / 170 KW",
+    "cubicCapacity": "2979 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }, {
+    "code": "TD-52055",
+    "name": "330 xi",
+    "builtFrom": "09/2004",
+    "builtTo": "04/2005",
+    "power": "228 KM / 168 KW",
+    "cubicCapacity": "2979 ccm",
+    "fuel": "benzyna",
+    "makeName": null,
+    "series": null
+  }]
+  

@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect, useMemo } from 'react';
@@ -17,7 +18,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
-import { vehicleData } from '@/lib/vehicle-data';
+import { manufacturersData, modelsData, typesData } from '@/lib/vehicle-data';
 
 interface SelectedDetails {
   manufacturer: string;
@@ -31,32 +32,25 @@ export default function VehicleSelector() {
   const [selectedManufacturer, setSelectedManufacturer] = useState<string | undefined>(undefined);
   const [selectedModel, setSelectedModel] = useState<string | undefined>(undefined);
   const [selectedType, setSelectedType] = useState<string | undefined>(undefined);
-
-  const [availableModels, setAvailableModels] = useState<string[]>([]);
-  const [availableTypes, setAvailableTypes] = useState<string[]>([]);
-
   const [confirmedDetails, setConfirmedDetails] = useState<SelectedDetails | null>(null);
 
+  const manufacturers = useMemo(() => 
+    manufacturersData.map(m => m.name).sort((a, b) => a.localeCompare(b)), 
+    []
+  );
+  const allModels = useMemo(() => 
+    modelsData.map(m => m.name).sort((a, b) => a.localeCompare(b)), 
+    []
+  );
+  const allTypes = useMemo(() => 
+    typesData.map(t => t.name).sort((a, b) => a.localeCompare(b)), 
+    []
+  );
+
   useEffect(() => {
-    if (selectedManufacturer) {
-      const manufacturerData = vehicleData.find(m => m.name === selectedManufacturer);
-      if (manufacturerData) {
-        setAvailableModels(manufacturerData.models);
-        setAvailableTypes(manufacturerData.types); // Assuming types are general per manufacturer as per current data model
-      } else {
-        setAvailableModels([]);
-        setAvailableTypes([]);
-      }
-      setSelectedModel(undefined);
-      setSelectedType(undefined);
-      setConfirmedDetails(null);
-    } else {
-      setAvailableModels([]);
-      setAvailableTypes([]);
-      setSelectedModel(undefined);
-      setSelectedType(undefined);
-      setConfirmedDetails(null);
-    }
+    setSelectedModel(undefined);
+    setSelectedType(undefined);
+    setConfirmedDetails(null);
   }, [selectedManufacturer]);
 
   useEffect(() => {
@@ -68,16 +62,15 @@ export default function VehicleSelector() {
     setConfirmedDetails(null);
   }, [selectedType]);
 
-  const manufacturers = useMemo(() => vehicleData.map(m => m.name), []);
-
   const handleConfirm = () => {
     if (selectedManufacturer && selectedModel && selectedType) {
+      const typeDetail = typesData.find(t => t.name === selectedType);
       const newDetails = {
         manufacturer: selectedManufacturer,
         model: selectedModel,
         type: selectedType,
-        power: "186 KM / 137 KW", // Dummy data as per image
-        cubicCapacity: "2494 ccm", // Dummy data as per image
+        power: typeDetail?.power || "N/A",
+        cubicCapacity: typeDetail?.cubicCapacity || "N/A",
       };
       setConfirmedDetails(newDetails);
     }
@@ -85,9 +78,8 @@ export default function VehicleSelector() {
 
   const handleReset = () => {
     setSelectedManufacturer(undefined);
-    // setSelectedModel(undefined); // These will be reset by the useEffect for selectedManufacturer
-    // setSelectedType(undefined);
-    // setConfirmedDetails(null);
+    // setSelectedModel and setSelectedType will be reset by their respective useEffect hooks
+    // setConfirmedDetails(null); // Also reset by useEffect
   };
 
   const isFormComplete = !!selectedManufacturer && !!selectedModel && !!selectedType;
@@ -113,26 +105,42 @@ export default function VehicleSelector() {
             </Select>
 
             <Label htmlFor="model-select" className="text-sm text-foreground justify-self-start">Vehicle Model:</Label>
-            <Select value={selectedModel} onValueChange={setSelectedModel} disabled={!selectedManufacturer || availableModels.length === 0}>
+            <Select 
+              value={selectedModel} 
+              onValueChange={setSelectedModel} 
+              disabled={!selectedManufacturer || allModels.length === 0}
+            >
               <SelectTrigger id="model-select" className="w-full">
                 <SelectValue placeholder="-- Select Model --" />
               </SelectTrigger>
               <SelectContent>
-                {availableModels.length > 0 ? availableModels.map(model => (
+                {allModels.length > 0 ? allModels.map(model => (
                   <SelectItem key={model} value={model}>{model}</SelectItem>
-                )) : <div className="p-2 text-sm text-muted-foreground">Select Manufacturer First</div>}
+                )) : (
+                  <div className="p-2 text-sm text-muted-foreground">
+                    {selectedManufacturer ? "No models available" : "Select Manufacturer First"}
+                  </div>
+                )}
               </SelectContent>
             </Select>
 
             <Label htmlFor="type-select" className="text-sm text-foreground justify-self-start">Vehicle Type:</Label>
-            <Select value={selectedType} onValueChange={setSelectedType} disabled={!selectedManufacturer || availableTypes.length === 0}>
+            <Select 
+              value={selectedType} 
+              onValueChange={setSelectedType} 
+              disabled={!selectedModel || allTypes.length === 0}
+            >
               <SelectTrigger id="type-select" className="w-full">
                 <SelectValue placeholder="-- Select Type --" />
               </SelectTrigger>
               <SelectContent>
-                {availableTypes.length > 0 ? availableTypes.map(type => (
+                {allTypes.length > 0 ? allTypes.map(type => (
                   <SelectItem key={type} value={type}>{type}</SelectItem>
-                )) : <div className="p-2 text-sm text-muted-foreground">Select Manufacturer First</div>}
+                )) : (
+                  <div className="p-2 text-sm text-muted-foreground">
+                    {selectedModel ? "No types available" : "Select Model First"}
+                  </div>
+                )}
               </SelectContent>
             </Select>
           </div>

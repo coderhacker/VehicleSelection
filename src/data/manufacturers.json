@@ -1,0 +1,1559 @@
+[{
+    "code": "TD-VM-3854",
+    "name": "ABARTH"
+  }, {
+    "code": "TD-VM-609",
+    "name": "AC"
+  }, {
+    "code": "TD-VM-1505",
+    "name": "ACURA"
+  }, {
+    "code": "TD-VM-4331",
+    "name": "AEON MOTORCYCLES"
+  }, {
+    "code": "TD-VM-128",
+    "name": "AGRALE"
+  }, {
+    "code": "TD-VM-4238",
+    "name": "AGRALE MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1480",
+    "name": "AIXAM"
+  }, {
+    "code": "TD-VM-2",
+    "name": "ALFA ROMEO"
+  }, {
+    "code": "TD-VM-4414",
+    "name": "ALPHEON"
+  }, {
+    "code": "TD-VM-866",
+    "name": "ALPINA"
+  }, {
+    "code": "TD-VM-810",
+    "name": "ALPINE"
+  }, {
+    "code": "TD-VM-2775",
+    "name": "AM GENERAL"
+  }, {
+    "code": "TD-VM-4367",
+    "name": "AMAZONAS MOTORCYCLES"
+  }, {
+    "code": "TD-VM-2246",
+    "name": "AMC"
+  }, {
+    "code": "TD-VM-3526",
+    "name": "ANADOL"
+  }, {
+    "code": "TD-VM-2847",
+    "name": "ANCHI"
+  }, {
+    "code": "TD-VM-3971",
+    "name": "ANDORIA"
+  }, {
+    "code": "TD-VM-2848",
+    "name": "ANFINI"
+  }, {
+    "code": "TD-VM-4049",
+    "name": "APRILIA MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1360",
+    "name": "ARO"
+  }, {
+    "code": "TD-VM-3495",
+    "name": "ARTEGA"
+  }, {
+    "code": "TD-VM-2241",
+    "name": "ASHOK LEYLAND"
+  }, {
+    "code": "TD-VM-879",
+    "name": "ASIA MOTORS"
+  }, {
+    "code": "TD-VM-2242",
+    "name": "ASKAM (FARGO/DESOTO)"
+  }, {
+    "code": "TD-VM-881",
+    "name": "ASTON MARTIN"
+  }, {
+    "code": "TD-VM-2706",
+    "name": "ASÜNA"
+  }, {
+    "code": "TD-VM-5",
+    "name": "AUDI"
+  }, {
+    "code": "TD-VM-2858",
+    "name": "AUDI (FAW)"
+  }, {
+    "code": "TD-VM-6",
+    "name": "AUSTIN"
+  }, {
+    "code": "TD-VM-1538",
+    "name": "AUSTIN-HEALEY"
+  }, {
+    "code": "TD-VM-3",
+    "name": "AUTO UNION"
+  }, {
+    "code": "TD-VM-799",
+    "name": "AUTOBIANCHI"
+  }, {
+    "code": "TD-VM-3842",
+    "name": "AUTOZAM"
+  }, {
+    "code": "TD-VM-3200",
+    "name": "AUX"
+  }, {
+    "code": "TD-VM-2707",
+    "name": "AVANTI"
+  }, {
+    "code": "TD-VM-132",
+    "name": "AVIA"
+  }, {
+    "code": "TD-VM-3773",
+    "name": "BAIC"
+  }, {
+    "code": "TD-VM-4418",
+    "name": "BAIC BJEV"
+  }, {
+    "code": "TD-VM-4036",
+    "name": "BAIC HUANSU"
+  }, {
+    "code": "TD-VM-4266",
+    "name": "BAIC WEIWANG"
+  }, {
+    "code": "TD-VM-3190",
+    "name": "BAIYUN"
+  }, {
+    "code": "TD-VM-2849",
+    "name": "BAJAJ TEMPO"
+  }, {
+    "code": "TD-VM-3764",
+    "name": "BAOJUN (SGMW)"
+  }, {
+    "code": "TD-VM-2906",
+    "name": "BAOLONG"
+  }, {
+    "code": "TD-VM-4423",
+    "name": "BAOTIAN MOTORCYCLES"
+  }, {
+    "code": "TD-VM-134",
+    "name": "BARKAS"
+  }, {
+    "code": "TD-VM-3071",
+    "name": "BAW"
+  }, {
+    "code": "TD-VM-10",
+    "name": "BEDFORD"
+  }, {
+    "code": "TD-VM-4402",
+    "name": "BEELINE MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3142",
+    "name": "BEIJING BENZ (BBDC)"
+  }, {
+    "code": "TD-VM-4446",
+    "name": "BENDE"
+  }, {
+    "code": "TD-VM-4050",
+    "name": "BENELLI MOTORCYCLES"
+  }, {
+    "code": "TD-VM-815",
+    "name": "BENTLEY"
+  }, {
+    "code": "TD-VM-1485",
+    "name": "BERTONE"
+  }, {
+    "code": "TD-VM-3762",
+    "name": "BESTURN (FAW)"
+  }, {
+    "code": "TD-VM-4315",
+    "name": "BETA MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4368",
+    "name": "BIMOTA MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1486",
+    "name": "BITTER"
+  }, {
+    "code": "TD-VM-16",
+    "name": "BMW"
+  }, {
+    "code": "TD-VM-3124",
+    "name": "BMW (BRILLIANCE)"
+  }, {
+    "code": "TD-VM-4081",
+    "name": "BMW MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4439",
+    "name": "BOGDAN"
+  }, {
+    "code": "TD-VM-1537",
+    "name": "BOND"
+  }, {
+    "code": "TD-VM-136",
+    "name": "BORGWARD"
+  }, {
+    "code": "TD-VM-4161",
+    "name": "BRABUS"
+  }, {
+    "code": "TD-VM-4239",
+    "name": "BRANDY MOTORCYCLES"
+  }, {
+    "code": "TD-VM-2708",
+    "name": "BRICKLIN"
+  }, {
+    "code": "TD-VM-3076",
+    "name": "BRILLIANCE"
+  }, {
+    "code": "TD-VM-1487",
+    "name": "BRISTOL"
+  }, {
+    "code": "TD-VM-4048",
+    "name": "BUELL MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4162",
+    "name": "BUFORI"
+  }, {
+    "code": "TD-VM-788",
+    "name": "BUGATTI"
+  }, {
+    "code": "TD-VM-816",
+    "name": "BUICK"
+  }, {
+    "code": "TD-VM-3136",
+    "name": "BUICK (SGM)"
+  }, {
+    "code": "TD-VM-3122",
+    "name": "BYD"
+  }, {
+    "code": "TD-VM-3770",
+    "name": "C.A.M"
+  }, {
+    "code": "TD-VM-819",
+    "name": "CADILLAC"
+  }, {
+    "code": "TD-VM-3528",
+    "name": "CADILLAC (SGM)"
+  }, {
+    "code": "TD-VM-4051",
+    "name": "CAGIVA MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1488",
+    "name": "CALLAWAY"
+  }, {
+    "code": "TD-VM-4319",
+    "name": "CALOI MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1489",
+    "name": "CARBODIES"
+  }, {
+    "code": "TD-VM-1490",
+    "name": "CATERHAM"
+  }, {
+    "code": "TD-VM-4487",
+    "name": "CEZETA MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4424",
+    "name": "CF MOTO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3678",
+    "name": "CHAMONIX"
+  }, {
+    "code": "TD-VM-2852",
+    "name": "CHANGAN (CHANA)"
+  }, {
+    "code": "TD-VM-2889",
+    "name": "CHANGFENG"
+  }, {
+    "code": "TD-VM-2853",
+    "name": "CHANGHE"
+  }, {
+    "code": "TD-VM-1491",
+    "name": "CHECKER"
+  }, {
+    "code": "TD-VM-2887",
+    "name": "CHERY"
+  }, {
+    "code": "TD-VM-138",
+    "name": "CHEVROLET"
+  }, {
+    "code": "TD-VM-3527",
+    "name": "CHEVROLET (SGM)"
+  }, {
+    "code": "TD-VM-3651",
+    "name": "CHEVROLET (SGMW)"
+  }, {
+    "code": "TD-VM-20",
+    "name": "CHRYSLER"
+  }, {
+    "code": "TD-VM-3646",
+    "name": "CHRYSLER (BBDC)"
+  }, {
+    "code": "TD-VM-4177",
+    "name": "CHTC AUTO"
+  }, {
+    "code": "TD-VM-2891",
+    "name": "CITROEN (DF-PSA)"
+  }, {
+    "code": "TD-VM-21",
+    "name": "CITROËN"
+  }, {
+    "code": "TD-VM-3772",
+    "name": "CMC"
+  }, {
+    "code": "TD-VM-3719",
+    "name": "CODA"
+  }, {
+    "code": "TD-VM-4214",
+    "name": "COWIN"
+  }, {
+    "code": "TD-VM-139",
+    "name": "DACIA"
+  }, {
+    "code": "TD-VM-2901",
+    "name": "DADI"
+  }, {
+    "code": "TD-VM-4052",
+    "name": "DAELIM MOTORCYCLES"
+  }, {
+    "code": "TD-VM-185",
+    "name": "DAEWOO"
+  }, {
+    "code": "TD-VM-24",
+    "name": "DAF"
+  }, {
+    "code": "TD-VM-4240",
+    "name": "DAFRA MOTORS MOTORCY"
+  }, {
+    "code": "TD-VM-25",
+    "name": "DAIHATSU"
+  }, {
+    "code": "TD-VM-3274",
+    "name": "DAIHATSU (FAW)"
+  }, {
+    "code": "TD-VM-26",
+    "name": "DAIMLER"
+  }, {
+    "code": "TD-VM-1493",
+    "name": "DALLAS"
+  }, {
+    "code": "TD-VM-807",
+    "name": "DATSUN"
+  }, {
+    "code": "TD-VM-4369",
+    "name": "DAYANG MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4267",
+    "name": "DAYUN"
+  }, {
+    "code": "TD-VM-1494",
+    "name": "DE LOREAN"
+  }, {
+    "code": "TD-VM-1495",
+    "name": "DE TOMASO"
+  }, {
+    "code": "TD-VM-4089",
+    "name": "DENZA"
+  }, {
+    "code": "TD-VM-4071",
+    "name": "DERBI MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3069",
+    "name": "DERWAYS"
+  }, {
+    "code": "TD-VM-4269",
+    "name": "DFSK"
+  }, {
+    "code": "TD-VM-29",
+    "name": "DODGE"
+  }, {
+    "code": "TD-VM-2854",
+    "name": "DONGFENG (DFAC)"
+  }, {
+    "code": "TD-VM-4264",
+    "name": "DONGFENG FENGDU"
+  }, {
+    "code": "TD-VM-3152",
+    "name": "DONGFENG XIAOKANG"
+  }, {
+    "code": "TD-VM-2855",
+    "name": "DONGNAN (SOUEAST)"
+  }, {
+    "code": "TD-VM-3497",
+    "name": "DR"
+  }, {
+    "code": "TD-VM-4468",
+    "name": "DS"
+  }, {
+    "code": "TD-VM-3999",
+    "name": "DS (CAPSA)"
+  }, {
+    "code": "TD-VM-4053",
+    "name": "DUCATI MOTORCYCLES"
+  }, {
+    "code": "TD-VM-824",
+    "name": "EAGLE"
+  }, {
+    "code": "TD-VM-142",
+    "name": "EBRO"
+  }, {
+    "code": "TD-VM-4288",
+    "name": "ECM MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3652",
+    "name": "EFFA"
+  }, {
+    "code": "TD-VM-4491",
+    "name": "EMCO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3332",
+    "name": "EMGRAND (GEELY)"
+  }, {
+    "code": "TD-VM-3704",
+    "name": "ENGLON (GEELY)"
+  }, {
+    "code": "TD-VM-2856",
+    "name": "ETSONG"
+  }, {
+    "code": "TD-VM-2857",
+    "name": "EUNOS"
+  }, {
+    "code": "TD-VM-3267",
+    "name": "EUROPESTAR"
+  }, {
+    "code": "TD-VM-2709",
+    "name": "EXCALIBUR"
+  }, {
+    "code": "TD-VM-4072",
+    "name": "FANTIC MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3610",
+    "name": "FAW"
+  }, {
+    "code": "TD-VM-2909",
+    "name": "FAW JILIN"
+  }, {
+    "code": "TD-VM-2890",
+    "name": "FAW TIANJIN"
+  }, {
+    "code": "TD-VM-2862",
+    "name": "FENGSHEN"
+  }, {
+    "code": "TD-VM-2863",
+    "name": "FENGXING (DONGFENG )"
+  }, {
+    "code": "TD-VM-700",
+    "name": "FERRARI"
+  }, {
+    "code": "TD-VM-35",
+    "name": "FIAT"
+  }, {
+    "code": "TD-VM-3761",
+    "name": "FIAT (GAC)"
+  }, {
+    "code": "TD-VM-3131",
+    "name": "FIAT (NANJING)"
+  }, {
+    "code": "TD-VM-3738",
+    "name": "FISKER"
+  }, {
+    "code": "TD-VM-3771",
+    "name": "FODAY"
+  }, {
+    "code": "TD-VM-2850",
+    "name": "FORCE"
+  }, {
+    "code": "TD-VM-36",
+    "name": "FORD"
+  }, {
+    "code": "TD-VM-3125",
+    "name": "FORD (CHANGAN)"
+  }, {
+    "code": "TD-VM-3656",
+    "name": "FORD (JMC)"
+  }, {
+    "code": "TD-VM-2864",
+    "name": "FORD ASIA / OZEANIA"
+  }, {
+    "code": "TD-VM-1496",
+    "name": "FORD AUSTRALIA"
+  }, {
+    "code": "TD-VM-808",
+    "name": "FORD OTOSAN"
+  }, {
+    "code": "TD-VM-776",
+    "name": "FORD USA"
+  }, {
+    "code": "TD-VM-2865",
+    "name": "FORTA"
+  }, {
+    "code": "TD-VM-2867",
+    "name": "FOTON"
+  }, {
+    "code": "TD-VM-3297",
+    "name": "FPV"
+  }, {
+    "code": "TD-VM-4257",
+    "name": "FQT MOTOR"
+  }, {
+    "code": "TD-VM-147",
+    "name": "FREIGHTLINER"
+  }, {
+    "code": "TD-VM-775",
+    "name": "FSO"
+  }, {
+    "code": "TD-VM-2875",
+    "name": "FUQI"
+  }, {
+    "code": "TD-VM-3196",
+    "name": "GAC"
+  }, {
+    "code": "TD-VM-3997",
+    "name": "GAC GONOW"
+  }, {
+    "code": "TD-VM-4370",
+    "name": "GARINNI MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4289",
+    "name": "GASGAS MOTORCYCLES"
+  }, {
+    "code": "TD-VM-148",
+    "name": "GAZ"
+  }, {
+    "code": "TD-VM-2590",
+    "name": "GEELY"
+  }, {
+    "code": "TD-VM-4403",
+    "name": "GENERIC MOTORCYCLES"
+  }, {
+    "code": "TD-VM-831",
+    "name": "GEO"
+  }, {
+    "code": "TD-VM-4054",
+    "name": "GILERA MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1498",
+    "name": "GINETTA"
+  }, {
+    "code": "TD-VM-812",
+    "name": "GLAS"
+  }, {
+    "code": "TD-VM-3697",
+    "name": "GLEAGLE (GEELY)"
+  }, {
+    "code": "TD-VM-39",
+    "name": "GMC"
+  }, {
+    "code": "TD-VM-3158",
+    "name": "GOLDEN DRAGON"
+  }, {
+    "code": "TD-VM-2902",
+    "name": "GONOW"
+  }, {
+    "code": "TD-VM-2903",
+    "name": "GREAT WALL"
+  }, {
+    "code": "TD-VM-2249",
+    "name": "GURGEL"
+  }, {
+    "code": "TD-VM-2866",
+    "name": "HAFEI"
+  }, {
+    "code": "TD-VM-3036",
+    "name": "HAIMA (FAW)"
+  }, {
+    "code": "TD-VM-3913",
+    "name": "HAIMA (ZHENGZHOU)"
+  }, {
+    "code": "TD-VM-2869",
+    "name": "HANJIANG"
+  }, {
+    "code": "TD-VM-4371",
+    "name": "HAOBAO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4055",
+    "name": "HARLEY-DAVIDSON MC"
+  }, {
+    "code": "TD-VM-4372",
+    "name": "HARTFORD MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3968",
+    "name": "HAVAL"
+  }, {
+    "code": "TD-VM-3562",
+    "name": "HAWTAI"
+  }, {
+    "code": "TD-VM-4450",
+    "name": "HEIBAO"
+  }, {
+    "code": "TD-VM-4268",
+    "name": "HENGTONG"
+  }, {
+    "code": "TD-VM-4087",
+    "name": "HERCULES MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4176",
+    "name": "HIGER"
+  }, {
+    "code": "TD-VM-2794",
+    "name": "HILLMAN"
+  }, {
+    "code": "TD-VM-1499",
+    "name": "HINDUSTAN"
+  }, {
+    "code": "TD-VM-4314",
+    "name": "HMRacing MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1500",
+    "name": "HOBBYCAR"
+  }, {
+    "code": "TD-VM-801",
+    "name": "HOLDEN"
+  }, {
+    "code": "TD-VM-45",
+    "name": "HONDA"
+  }, {
+    "code": "TD-VM-3126",
+    "name": "HONDA (DONGFENG)"
+  }, {
+    "code": "TD-VM-3129",
+    "name": "HONDA (GAC)"
+  }, {
+    "code": "TD-VM-4082",
+    "name": "HONDA MOTORCYCLES"
+  }, {
+    "code": "TD-VM-2871",
+    "name": "HONGQI"
+  }, {
+    "code": "TD-VM-4488",
+    "name": "HOREX MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3276",
+    "name": "HSV"
+  }, {
+    "code": "TD-VM-2872",
+    "name": "HUALI"
+  }, {
+    "code": "TD-VM-4258",
+    "name": "HUANGHAI"
+  }, {
+    "code": "TD-VM-4255",
+    "name": "HUASONG"
+  }, {
+    "code": "TD-VM-4320",
+    "name": "HUAYANG"
+  }, {
+    "code": "TD-VM-1506",
+    "name": "HUMMER"
+  }, {
+    "code": "TD-VM-4287",
+    "name": "HUSABERG MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4241",
+    "name": "HUSQVARNA MOTORCYCLE"
+  }, {
+    "code": "TD-VM-4056",
+    "name": "HYOSUNG MOTORCYCLES"
+  }, {
+    "code": "TD-VM-183",
+    "name": "HYUNDAI"
+  }, {
+    "code": "TD-VM-3123",
+    "name": "HYUNDAI (BEIJING)"
+  }, {
+    "code": "TD-VM-3128",
+    "name": "HYUNDAI (HUATAI)"
+  }, {
+    "code": "TD-VM-3507",
+    "name": "ICML"
+  }, {
+    "code": "TD-VM-4535",
+    "name": "IKA"
+  }, {
+    "code": "TD-VM-4325",
+    "name": "INDIAN MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1507",
+    "name": "INDIGO"
+  }, {
+    "code": "TD-VM-1526",
+    "name": "INFINITI"
+  }, {
+    "code": "TD-VM-4211",
+    "name": "INFINITI (Dongfeng)"
+  }, {
+    "code": "TD-VM-52",
+    "name": "INNOCENTI"
+  }, {
+    "code": "TD-VM-3677",
+    "name": "INOKOM"
+  }, {
+    "code": "TD-VM-2460",
+    "name": "INTERNATIONAL"
+  }, {
+    "code": "TD-VM-3084",
+    "name": "IRAN KHODRO (IKCO)"
+  }, {
+    "code": "TD-VM-1508",
+    "name": "IRMSCHER"
+  }, {
+    "code": "TD-VM-4373",
+    "name": "IROS MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1509",
+    "name": "ISDERA"
+  }, {
+    "code": "TD-VM-1510",
+    "name": "ISH"
+  }, {
+    "code": "TD-VM-2798",
+    "name": "ISOTTA FRASCHINI"
+  }, {
+    "code": "TD-VM-54",
+    "name": "ISUZU"
+  }, {
+    "code": "TD-VM-4393",
+    "name": "ISUZU (JIANGXI)"
+  }, {
+    "code": "TD-VM-4073",
+    "name": "ITALJET MOTORCYCLES"
+  }, {
+    "code": "TD-VM-55",
+    "name": "IVECO"
+  }, {
+    "code": "TD-VM-2873",
+    "name": "JAC"
+  }, {
+    "code": "TD-VM-56",
+    "name": "JAGUAR"
+  }, {
+    "code": "TD-VM-4074",
+    "name": "JAWA MOTORCYCLES"
+  }, {
+    "code": "TD-VM-882",
+    "name": "JEEP"
+  }, {
+    "code": "TD-VM-2851",
+    "name": "JEEP (BJC)"
+  }, {
+    "code": "TD-VM-4454",
+    "name": "JEEP (GAC FCA)"
+  }, {
+    "code": "TD-VM-1511",
+    "name": "JENSEN"
+  }, {
+    "code": "TD-VM-2908",
+    "name": "JIANGNAN"
+  }, {
+    "code": "TD-VM-2907",
+    "name": "JIEFANG"
+  }, {
+    "code": "TD-VM-2888",
+    "name": "JINBEI (BRILLIANCE)"
+  }, {
+    "code": "TD-VM-4179",
+    "name": "JINCHENG"
+  }, {
+    "code": "TD-VM-3040",
+    "name": "JMC"
+  }, {
+    "code": "TD-VM-4374",
+    "name": "JOHNNY PAG MC"
+  }, {
+    "code": "TD-VM-3993",
+    "name": "JONWAY"
+  }, {
+    "code": "TD-VM-4180",
+    "name": "JOYLONG"
+  }, {
+    "code": "TD-VM-4375",
+    "name": "KAHENA MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4265",
+    "name": "KAMA"
+  }, {
+    "code": "TD-VM-4390",
+    "name": "KANDI"
+  }, {
+    "code": "TD-VM-3286",
+    "name": "KARRY"
+  }, {
+    "code": "TD-VM-4242",
+    "name": "KASINSKI MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4057",
+    "name": "KAWASAKI MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4181",
+    "name": "KAWEI AUTO"
+  }, {
+    "code": "TD-VM-4495",
+    "name": "KEEWAY MOTORCYCLES"
+  }, {
+    "code": "TD-VM-184",
+    "name": "KIA"
+  }, {
+    "code": "TD-VM-3127",
+    "name": "KIA (DYK)"
+  }, {
+    "code": "TD-VM-3805",
+    "name": "KING LONG"
+  }, {
+    "code": "TD-VM-4163",
+    "name": "KOENIGSEGG"
+  }, {
+    "code": "TD-VM-4070",
+    "name": "KREIDLER MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4498",
+    "name": "KSR MOTO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-2760",
+    "name": "KTM"
+  }, {
+    "code": "TD-VM-4058",
+    "name": "KTM MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4472",
+    "name": "KUBA MOTOR MC"
+  }, {
+    "code": "TD-VM-4059",
+    "name": "KYMCO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-63",
+    "name": "LADA"
+  }, {
+    "code": "TD-VM-2710",
+    "name": "LAFORZA"
+  }, {
+    "code": "TD-VM-701",
+    "name": "LAMBORGHINI"
+  }, {
+    "code": "TD-VM-64",
+    "name": "LANCIA"
+  }, {
+    "code": "TD-VM-1820",
+    "name": "LAND ROVER"
+  }, {
+    "code": "TD-VM-4282",
+    "name": "LAND ROVER (CHERY)"
+  }, {
+    "code": "TD-VM-2589",
+    "name": "LANDWIND (JMC)"
+  }, {
+    "code": "TD-VM-4075",
+    "name": "LAVERDA MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1380",
+    "name": "LDV"
+  }, {
+    "code": "TD-VM-842",
+    "name": "LEXUS"
+  }, {
+    "code": "TD-VM-2407",
+    "name": "LEYLAND-INNOCENTI"
+  }, {
+    "code": "TD-VM-3086",
+    "name": "LIFAN"
+  }, {
+    "code": "TD-VM-1513",
+    "name": "LIGIER"
+  }, {
+    "code": "TD-VM-1200",
+    "name": "LINCOLN"
+  }, {
+    "code": "TD-VM-4187",
+    "name": "LLOYD"
+  }, {
+    "code": "TD-VM-4231",
+    "name": "LML MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3679",
+    "name": "LOBINI"
+  }, {
+    "code": "TD-VM-802",
+    "name": "LOTUS"
+  }, {
+    "code": "TD-VM-3661",
+    "name": "LOTUS (YOUNGMAN)"
+  }, {
+    "code": "TD-VM-3047",
+    "name": "LTI"
+  }, {
+    "code": "TD-VM-3742",
+    "name": "LUXGEN"
+  }, {
+    "code": "TD-VM-4494",
+    "name": "LUXXON MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1280",
+    "name": "MAHINDRA"
+  }, {
+    "code": "TD-VM-3554",
+    "name": "MAHINDRA RENAULT"
+  }, {
+    "code": "TD-VM-4076",
+    "name": "MAICO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4060",
+    "name": "MALAGUTI MOTORCYCLES"
+  }, {
+    "code": "TD-VM-2905",
+    "name": "MAPLE (SMA)"
+  }, {
+    "code": "TD-VM-1516",
+    "name": "MARCOS"
+  }, {
+    "code": "TD-VM-908",
+    "name": "MARUTI"
+  }, {
+    "code": "TD-VM-3549",
+    "name": "MARUTI SUZUKI"
+  }, {
+    "code": "TD-VM-771",
+    "name": "MASERATI"
+  }, {
+    "code": "TD-VM-4492",
+    "name": "MASH MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3794",
+    "name": "MASTRETTA"
+  }, {
+    "code": "TD-VM-3300",
+    "name": "MAXUS (SAIC MOTOR)"
+  }, {
+    "code": "TD-VM-2164",
+    "name": "MAYBACH"
+  }, {
+    "code": "TD-VM-72",
+    "name": "MAZDA"
+  }, {
+    "code": "TD-VM-3532",
+    "name": "MAZDA (CHANGAN)"
+  }, {
+    "code": "TD-VM-3138",
+    "name": "MAZDA (FAW)"
+  }, {
+    "code": "TD-VM-2868",
+    "name": "MAZDA (HAINAN)"
+  }, {
+    "code": "TD-VM-4061",
+    "name": "MBK MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1518",
+    "name": "MCLAREN"
+  }, {
+    "code": "TD-VM-845",
+    "name": "MEGA"
+  }, {
+    "code": "TD-VM-74",
+    "name": "MERCEDES-BENZ"
+  }, {
+    "code": "TD-VM-3645",
+    "name": "MERCEDES-BENZ (BBDC)"
+  }, {
+    "code": "TD-VM-3522",
+    "name": "MERCEDES-BENZ (FJDA)"
+  }, {
+    "code": "TD-VM-161",
+    "name": "MERCURY"
+  }, {
+    "code": "TD-VM-2711",
+    "name": "MERKUR"
+  }, {
+    "code": "TD-VM-1520",
+    "name": "METROCAB"
+  }, {
+    "code": "TD-VM-75",
+    "name": "MG"
+  }, {
+    "code": "TD-VM-3133",
+    "name": "MG (NANJING)"
+  }, {
+    "code": "TD-VM-3838",
+    "name": "MG (SAIC)"
+  }, {
+    "code": "TD-VM-4219",
+    "name": "MICROCAR"
+  }, {
+    "code": "TD-VM-1521",
+    "name": "MIDDLEBRIDGE"
+  }, {
+    "code": "TD-VM-1522",
+    "name": "MINELLI"
+  }, {
+    "code": "TD-VM-1523",
+    "name": "MINI"
+  }, {
+    "code": "TD-VM-77",
+    "name": "MITSUBISHI"
+  }, {
+    "code": "TD-VM-3648",
+    "name": "MITSUBISHI (BBDC)"
+  }, {
+    "code": "TD-VM-3650",
+    "name": "MITSUBISHI (BJC)"
+  }, {
+    "code": "TD-VM-3837",
+    "name": "MITSUBISHI (GAC)"
+  }, {
+    "code": "TD-VM-3658",
+    "name": "MITSUBISHI (SOUEAST)"
+  }, {
+    "code": "TD-VM-2904",
+    "name": "MITSUOKA"
+  }, {
+    "code": "TD-VM-4376",
+    "name": "MIZA MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4501",
+    "name": "MOBILITY VENTURES"
+  }, {
+    "code": "TD-VM-803",
+    "name": "MORGAN"
+  }, {
+    "code": "TD-VM-78",
+    "name": "MORRIS"
+  }, {
+    "code": "TD-VM-813",
+    "name": "MOSKVICH"
+  }, {
+    "code": "TD-VM-4062",
+    "name": "MOTO GUZZI MC"
+  }, {
+    "code": "TD-VM-4077",
+    "name": "MOTO-MORINI MC"
+  }, {
+    "code": "TD-VM-4328",
+    "name": "MOTOBI MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4493",
+    "name": "MOTOWELL MC"
+  }, {
+    "code": "TD-VM-4243",
+    "name": "MV AGUSTA MOTORCYCLE"
+  }, {
+    "code": "TD-VM-4385",
+    "name": "MVK MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4063",
+    "name": "MZ MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3132",
+    "name": "NAC IVECO (NAVECO)"
+  }, {
+    "code": "TD-VM-3070",
+    "name": "NAZA"
+  }, {
+    "code": "TD-VM-4277",
+    "name": "NDY"
+  }, {
+    "code": "TD-VM-80",
+    "name": "NISSAN"
+  }, {
+    "code": "TD-VM-3141",
+    "name": "NISSAN (DONGFENG)"
+  }, {
+    "code": "TD-VM-2910",
+    "name": "NISSAN (ZHENGZHOU)"
+  }, {
+    "code": "TD-VM-3625",
+    "name": "NOBLE"
+  }, {
+    "code": "TD-VM-81",
+    "name": "NSU"
+  }, {
+    "code": "TD-VM-1141",
+    "name": "OLDSMOBILE"
+  }, {
+    "code": "TD-VM-1527",
+    "name": "OLTCIT"
+  }, {
+    "code": "TD-VM-84",
+    "name": "OPEL"
+  }, {
+    "code": "TD-VM-1529",
+    "name": "OSCA"
+  }, {
+    "code": "TD-VM-2806",
+    "name": "PACKARD"
+  }, {
+    "code": "TD-VM-4164",
+    "name": "PAGANI"
+  }, {
+    "code": "TD-VM-1530",
+    "name": "PANOZ"
+  }, {
+    "code": "TD-VM-1531",
+    "name": "PANTHER"
+  }, {
+    "code": "TD-VM-1532",
+    "name": "PAYKAN"
+  }, {
+    "code": "TD-VM-1533",
+    "name": "PERODUA"
+  }, {
+    "code": "TD-VM-88",
+    "name": "PEUGEOT"
+  }, {
+    "code": "TD-VM-3531",
+    "name": "PEUGEOT (DF-PSA)"
+  }, {
+    "code": "TD-VM-4083",
+    "name": "PEUGEOT MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4078",
+    "name": "PGO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-181",
+    "name": "PIAGGIO"
+  }, {
+    "code": "TD-VM-4067",
+    "name": "PIAGGIO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3046",
+    "name": "PININFARINA"
+  }, {
+    "code": "TD-VM-850",
+    "name": "PLYMOUTH"
+  }, {
+    "code": "TD-VM-3154",
+    "name": "POLARSUN AUTOMOBILE"
+  }, {
+    "code": "TD-VM-774",
+    "name": "PONTIAC"
+  }, {
+    "code": "TD-VM-92",
+    "name": "PORSCHE"
+  }, {
+    "code": "TD-VM-851",
+    "name": "PREMIER"
+  }, {
+    "code": "TD-VM-778",
+    "name": "PROTON"
+  }, {
+    "code": "TD-VM-1580",
+    "name": "PUCH"
+  }, {
+    "code": "TD-VM-4084",
+    "name": "PUCH MOTORCYCLES"
+  }, {
+    "code": "TD-VM-880",
+    "name": "PUMA"
+  }, {
+    "code": "TD-VM-3740",
+    "name": "PYEONGHWA (PMC)"
+  }, {
+    "code": "TD-VM-3139",
+    "name": "QINGLING"
+  }, {
+    "code": "TD-VM-3839",
+    "name": "QOROS"
+  }, {
+    "code": "TD-VM-4346",
+    "name": "QUADRO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-2712",
+    "name": "QVALE"
+  }, {
+    "code": "TD-VM-3689",
+    "name": "RAM"
+  }, {
+    "code": "TD-VM-1534",
+    "name": "RANGER"
+  }, {
+    "code": "TD-VM-1536",
+    "name": "RAYTON FISSORE"
+  }, {
+    "code": "TD-VM-4377",
+    "name": "REGAL RAPTOR MC"
+  }, {
+    "code": "TD-VM-773",
+    "name": "RELIANT"
+  }, {
+    "code": "TD-VM-3284",
+    "name": "RELY"
+  }, {
+    "code": "TD-VM-93",
+    "name": "RENAULT"
+  }, {
+    "code": "TD-VM-3208",
+    "name": "RENAULT SAMSUNG"
+  }, {
+    "code": "TD-VM-694",
+    "name": "RENAULT TRUCKS"
+  }, {
+    "code": "TD-VM-3555",
+    "name": "REVA (MAHINDRA)"
+  }, {
+    "code": "TD-VM-4290",
+    "name": "REX MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3285",
+    "name": "RIICH"
+  }, {
+    "code": "TD-VM-1539",
+    "name": "RILEY"
+  }, {
+    "code": "TD-VM-4404",
+    "name": "RIVERO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3202",
+    "name": "ROEWE (SAIC)"
+  }, {
+    "code": "TD-VM-705",
+    "name": "ROLLS-ROYCE"
+  }, {
+    "code": "TD-VM-95",
+    "name": "ROVER"
+  }, {
+    "code": "TD-VM-4386",
+    "name": "ROYAL ENFIELD MC"
+  }, {
+    "code": "TD-VM-4152",
+    "name": "RUF"
+  }, {
+    "code": "TD-VM-99",
+    "name": "SAAB"
+  }, {
+    "code": "TD-VM-4064",
+    "name": "SACHS MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3155",
+    "name": "SAIC HUIZHONG"
+  }, {
+    "code": "TD-VM-2713",
+    "name": "SALEEN"
+  }, {
+    "code": "TD-VM-4260",
+    "name": "SAMSUNG"
+  }, {
+    "code": "TD-VM-1544",
+    "name": "SAN"
+  }, {
+    "code": "TD-VM-4079",
+    "name": "SANGLAS MOTORCYCLES"
+  }, {
+    "code": "TD-VM-171",
+    "name": "SANTANA"
+  }, {
+    "code": "TD-VM-1545",
+    "name": "SAO"
+  }, {
+    "code": "TD-VM-1497",
+    "name": "SATURN"
+  }, {
+    "code": "TD-VM-2714",
+    "name": "SCION"
+  }, {
+    "code": "TD-VM-104",
+    "name": "SEAT"
+  }, {
+    "code": "TD-VM-4497",
+    "name": "SFM MOTORCYCLE"
+  }, {
+    "code": "TD-VM-1547",
+    "name": "SHELBY"
+  }, {
+    "code": "TD-VM-4378",
+    "name": "SHINERAY MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3156",
+    "name": "SHUANGHUAN"
+  }, {
+    "code": "TD-VM-3273",
+    "name": "SHUGUANG"
+  }, {
+    "code": "TD-VM-4065",
+    "name": "SIMSON MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1548",
+    "name": "SIPANI"
+  }, {
+    "code": "TD-VM-106",
+    "name": "SKODA"
+  }, {
+    "code": "TD-VM-3530",
+    "name": "SKODA (SVW )"
+  }, {
+    "code": "TD-VM-1138",
+    "name": "SMART"
+  }, {
+    "code": "TD-VM-4066",
+    "name": "SOLO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4400",
+    "name": "SOMMER MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3153",
+    "name": "SOYAT"
+  }, {
+    "code": "TD-VM-1549",
+    "name": "SPECTRE"
+  }, {
+    "code": "TD-VM-2755",
+    "name": "SPYKER"
+  }, {
+    "code": "TD-VM-4010",
+    "name": "SRT"
+  }, {
+    "code": "TD-VM-175",
+    "name": "SSANGYONG"
+  }, {
+    "code": "TD-VM-1550",
+    "name": "STANDARD"
+  }, {
+    "code": "TD-VM-2810",
+    "name": "STANGUELLINI"
+  }, {
+    "code": "TD-VM-1540",
+    "name": "STERLING"
+  }, {
+    "code": "TD-VM-176",
+    "name": "STEYR"
+  }, {
+    "code": "TD-VM-4015",
+    "name": "STREETSCOOTER"
+  }, {
+    "code": "TD-VM-2715",
+    "name": "STUDEBAKER"
+  }, {
+    "code": "TD-VM-107",
+    "name": "SUBARU"
+  }, {
+    "code": "TD-VM-2716",
+    "name": "SUNBEAM"
+  }, {
+    "code": "TD-VM-4299",
+    "name": "SUNDOWN MOTORCYCLES"
+  }, {
+    "code": "TD-VM-109",
+    "name": "SUZUKI"
+  }, {
+    "code": "TD-VM-3143",
+    "name": "SUZUKI (CHANGAN)"
+  }, {
+    "code": "TD-VM-3199",
+    "name": "SUZUKI (CHANGHE)"
+  }, {
+    "code": "TD-VM-4085",
+    "name": "SUZUKI MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4407",
+    "name": "SWM MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4245",
+    "name": "SYM MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3680",
+    "name": "TAC"
+  }, {
+    "code": "TD-VM-4292",
+    "name": "TAGAZ"
+  }, {
+    "code": "TD-VM-110",
+    "name": "TALBOT"
+  }, {
+    "code": "TD-VM-178",
+    "name": "TATA"
+  }, {
+    "code": "TD-VM-3443",
+    "name": "TAZZARI"
+  }, {
+    "code": "TD-VM-3328",
+    "name": "TESLA"
+  }, {
+    "code": "TD-VM-4401",
+    "name": "TGB MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3514",
+    "name": "THINK"
+  }, {
+    "code": "TD-VM-3048",
+    "name": "TIANMA"
+  }, {
+    "code": "TD-VM-3157",
+    "name": "TIANQI MEIYA AUTO"
+  }, {
+    "code": "TD-VM-1551",
+    "name": "TOFAS"
+  }, {
+    "code": "TD-VM-4425",
+    "name": "TOMOS MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4449",
+    "name": "TONGBAO"
+  }, {
+    "code": "TD-VM-4448",
+    "name": "TONGJIAFU"
+  }, {
+    "code": "TD-VM-2913",
+    "name": "TONGTIAN"
+  }, {
+    "code": "TD-VM-4080",
+    "name": "TORNAX MOTORCYCLES"
+  }, {
+    "code": "TD-VM-111",
+    "name": "TOYOTA"
+  }, {
+    "code": "TD-VM-3137",
+    "name": "TOYOTA (FAW)"
+  }, {
+    "code": "TD-VM-3130",
+    "name": "TOYOTA (GAC)"
+  }, {
+    "code": "TD-VM-187",
+    "name": "TRABANT"
+  }, {
+    "code": "TD-VM-4244",
+    "name": "TRAXX MOTORCYCLES"
+  }, {
+    "code": "TD-VM-112",
+    "name": "TRIUMPH"
+  }, {
+    "code": "TD-VM-4086",
+    "name": "TRIUMPH MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3681",
+    "name": "TROLLER"
+  }, {
+    "code": "TD-VM-4496",
+    "name": "TURBHO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-861",
+    "name": "TVR"
+  }, {
+    "code": "TD-VM-1553",
+    "name": "UAZ"
+  }, {
+    "code": "TD-VM-3159",
+    "name": "UFO (FEIDI)"
+  }, {
+    "code": "TD-VM-1554",
+    "name": "UMM"
+  }, {
+    "code": "TD-VM-4310",
+    "name": "VAM"
+  }, {
+    "code": "TD-VM-117",
+    "name": "VAUXHALL"
+  }, {
+    "code": "TD-VM-1555",
+    "name": "VECTOR"
+  }, {
+    "code": "TD-VM-4379",
+    "name": "VENTO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-1556",
+    "name": "VENTURI"
+  }, {
+    "code": "TD-VM-3799",
+    "name": "VENUCIA"
+  }, {
+    "code": "TD-VM-4069",
+    "name": "VESPA MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4256",
+    "name": "VICTORY AUTO"
+  }, {
+    "code": "TD-VM-4324",
+    "name": "VICTORY MOTORCYCLES"
+  }, {
+    "code": "TD-VM-120",
+    "name": "VOLVO"
+  }, {
+    "code": "TD-VM-3533",
+    "name": "VOLVO (CHANGAN)"
+  }, {
+    "code": "TD-VM-4167",
+    "name": "VOLVO ASIA"
+  }, {
+    "code": "TD-VM-3752",
+    "name": "VPG"
+  }, {
+    "code": "TD-VM-121",
+    "name": "VW"
+  }, {
+    "code": "TD-VM-2859",
+    "name": "VW (FAW)"
+  }, {
+    "code": "TD-VM-3035",
+    "name": "VW (SVW)"
+  }, {
+    "code": "TD-VM-3191",
+    "name": "WANFENG"
+  }, {
+    "code": "TD-VM-186",
+    "name": "WARTBURG"
+  }, {
+    "code": "TD-VM-907",
+    "name": "WESTFIELD"
+  }, {
+    "code": "TD-VM-1558",
+    "name": "WIESMANN"
+  }, {
+    "code": "TD-VM-1541",
+    "name": "WOLSELEY"
+  }, {
+    "code": "TD-VM-3696",
+    "name": "WORKHORSE"
+  }, {
+    "code": "TD-VM-2874",
+    "name": "WULING"
+  }, {
+    "code": "TD-VM-3140",
+    "name": "WULING (SGMW)"
+  }, {
+    "code": "TD-VM-4326",
+    "name": "WUYANG MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3186",
+    "name": "XINKAI"
+  }, {
+    "code": "TD-VM-4068",
+    "name": "YAMAHA MOTORCYCLES"
+  }, {
+    "code": "TD-VM-3796",
+    "name": "YCACO"
+  }, {
+    "code": "TD-VM-4002",
+    "name": "YEMA AUTO"
+  }, {
+    "code": "TD-VM-4169",
+    "name": "YINGZHI"
+  }, {
+    "code": "TD-VM-3193",
+    "name": "YUEJIN"
+  }, {
+    "code": "TD-VM-2816",
+    "name": "YUGO"
+  }, {
+    "code": "TD-VM-1559",
+    "name": "YULON"
+  }, {
+    "code": "TD-VM-3194",
+    "name": "YUNQUE"
+  }, {
+    "code": "TD-VM-124",
+    "name": "ZASTAVA"
+  }, {
+    "code": "TD-VM-1139",
+    "name": "ZAZ"
+  }, {
+    "code": "TD-VM-4322",
+    "name": "ZERO MOTORCYCLES"
+  }, {
+    "code": "TD-VM-4033",
+    "name": "ZHINUO (ZINORO)"
+  }, {
+    "code": "TD-VM-2736",
+    "name": "ZHONGHUA(BRILLIANCE)"
+  }, {
+    "code": "TD-VM-2911",
+    "name": "ZHONGXING (ZTE)"
+  }, {
+    "code": "TD-VM-3160",
+    "name": "ZOTYE"
+  }, {
+    "code": "TD-VM-678",
+    "name": "ZUENDAPP"
+  }]
+  

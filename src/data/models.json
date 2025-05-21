@@ -1,0 +1,467 @@
+[{
+    "code": "TD-164",
+    "name": "02 (E10)",
+    "builtFrom": "04/1966",
+    "builtTo": "07/1977"
+  }, {
+    "code": "TD-1602",
+    "name": "02 Touring (E6)",
+    "builtFrom": "01/1971",
+    "builtTo": "07/1975"
+  }, {
+    "code": "TD-1608",
+    "name": "02 kabriolet (E10)",
+    "builtFrom": "12/1967",
+    "builtTo": "10/1975"
+  }, {
+    "code": "TD-5114",
+    "name": "1 (E81)",
+    "builtFrom": "09/2006",
+    "builtTo": "09/2012"
+  }, {
+    "code": "TD-10974",
+    "name": "1 (E87)",
+    "builtFrom": "11/2003",
+    "builtTo": "01/2013"
+  }, {
+    "code": "TD-9620",
+    "name": "1 (F20)",
+    "builtFrom": "11/2010",
+    "builtTo": null
+  }, {
+    "code": "TD-11003",
+    "name": "1 (F21)",
+    "builtFrom": "12/2011",
+    "builtTo": null
+  }, {
+    "code": "TD-6441",
+    "name": "1 coupe (E82)",
+    "builtFrom": "10/2007",
+    "builtTo": "10/2013"
+  }, {
+    "code": "TD-6713",
+    "name": "1 kabriolet (E88)",
+    "builtFrom": "03/2008",
+    "builtTo": "12/2013"
+  }, {
+    "code": "TD-187",
+    "name": "1500-2000 (115, 116, 118, 121)",
+    "builtFrom": "10/1962",
+    "builtTo": "11/1972"
+  }, {
+    "code": "TD-1640",
+    "name": "1600 GT coupe",
+    "builtFrom": "10/1967",
+    "builtTo": "05/1969"
+  }, {
+    "code": "TD-12791",
+    "name": "2 Active Tourer (F45)",
+    "builtFrom": "09/2014",
+    "builtTo": null
+  }, {
+    "code": "TD-13830",
+    "name": "2 Gran Tourer (F46)",
+    "builtFrom": "03/2015",
+    "builtTo": null
+  }, {
+    "code": "TD-11599",
+    "name": "2 coupe (F22, F87)",
+    "builtFrom": "10/2013",
+    "builtTo": null
+  }, {
+    "code": "TD-13176",
+    "name": "2 kabriolet (F23)",
+    "builtFrom": "11/2014",
+    "builtTo": null
+  }, {
+    "code": "TD-1641",
+    "name": "2.6- 3200 V8 coupe",
+    "builtFrom": "10/1958",
+    "builtTo": "07/1966"
+  }, {
+    "code": "TD-224",
+    "name": "2000-3.2 coupe (E9)",
+    "builtFrom": "10/1965",
+    "builtTo": "03/1976"
+  }, {
+    "code": "TD-219",
+    "name": "2500-3.3 (E3)",
+    "builtFrom": "10/1968",
+    "builtTo": "04/1977"
+  }, {
+    "code": "TD-286",
+    "name": "3 (E21)",
+    "builtFrom": "06/1975",
+    "builtTo": "03/1984"
+  }, {
+    "code": "TD-290",
+    "name": "3 (E30)",
+    "builtFrom": "09/1982",
+    "builtTo": "03/1992"
+  }, {
+    "code": "TD-304",
+    "name": "3 (E36)",
+    "builtFrom": "09/1990",
+    "builtTo": "02/1998"
+  }, {
+    "code": "TD-3397",
+    "name": "3 (E46)",
+    "builtFrom": "02/1998",
+    "builtTo": "04/2005"
+  }, {
+    "code": "TD-5389",
+    "name": "3 (E90)",
+    "builtFrom": "01/2005",
+    "builtTo": "12/2011"
+  }, {
+    "code": "TD-9831",
+    "name": "3 (F30, F35, F80)",
+    "builtFrom": "10/2011",
+    "builtTo": null
+  }, {
+    "code": "TD-299",
+    "name": "3 Compact (E36)",
+    "builtFrom": "03/1994",
+    "builtTo": "08/2000"
+  }, {
+    "code": "TD-4751",
+    "name": "3 Compact (E46)",
+    "builtFrom": "06/2001",
+    "builtTo": "02/2005"
+  }, {
+    "code": "TD-11207",
+    "name": "3 Gran Turismo (F34)",
+    "builtFrom": "03/2013",
+    "builtTo": null
+  }, {
+    "code": "TD-294",
+    "name": "3 Touring (E30)",
+    "builtFrom": "07/1987",
+    "builtTo": "10/1994"
+  }, {
+    "code": "TD-1311",
+    "name": "3 Touring (E36)",
+    "builtFrom": "01/1995",
+    "builtTo": "10/1999"
+  }, {
+    "code": "TD-4088",
+    "name": "3 Touring (E46)",
+    "builtFrom": "10/1999",
+    "builtTo": "02/2005"
+  }, {
+    "code": "TD-5430",
+    "name": "3 Touring (E91)",
+    "builtFrom": "09/2005",
+    "builtTo": "06/2012"
+  }, {
+    "code": "TD-10266",
+    "name": "3 Touring (F31)",
+    "builtFrom": "10/2011",
+    "builtTo": null
+  }, {
+    "code": "TD-308",
+    "name": "3 coupe (E36)",
+    "builtFrom": "03/1992",
+    "builtTo": "04/1999"
+  }, {
+    "code": "TD-3999",
+    "name": "3 coupe (E46)",
+    "builtFrom": "04/1999",
+    "builtTo": "07/2006"
+  }, {
+    "code": "TD-5569",
+    "name": "3 coupe (E92)",
+    "builtFrom": "06/2006",
+    "builtTo": "12/2013"
+  }, {
+    "code": "TD-430",
+    "name": "3 kabriolet (E30)",
+    "builtFrom": "12/1985",
+    "builtTo": "10/1993"
+  }, {
+    "code": "TD-434",
+    "name": "3 kabriolet (E36)",
+    "builtFrom": "03/1993",
+    "builtTo": "04/1999"
+  }, {
+    "code": "TD-4571",
+    "name": "3 kabriolet (E46)",
+    "builtFrom": "04/2000",
+    "builtTo": "12/2007"
+  }, {
+    "code": "TD-6241",
+    "name": "3 kabriolet (E93)",
+    "builtFrom": "08/2006",
+    "builtTo": "12/2013"
+  }, {
+    "code": "TD-11900",
+    "name": "4 Gran Coupe (F36)",
+    "builtFrom": "03/2014",
+    "builtTo": null
+  }, {
+    "code": "TD-11300",
+    "name": "4 coupe (F32, F82)",
+    "builtFrom": "07/2013",
+    "builtTo": null
+  }, {
+    "code": "TD-11600",
+    "name": "4 kabriolet (F33, F83)",
+    "builtFrom": "10/2013",
+    "builtTo": null
+  }, {
+    "code": "TD-456",
+    "name": "5 (E12)",
+    "builtFrom": "08/1972",
+    "builtTo": "08/1981"
+  }, {
+    "code": "TD-452",
+    "name": "5 (E28)",
+    "builtFrom": "06/1980",
+    "builtTo": "12/1987"
+  }, {
+    "code": "TD-464",
+    "name": "5 (E34)",
+    "builtFrom": "12/1987",
+    "builtTo": "11/1995"
+  }, {
+    "code": "TD-1449",
+    "name": "5 (E39)",
+    "builtFrom": "11/1995",
+    "builtTo": "06/2003"
+  }, {
+    "code": "TD-4993",
+    "name": "5 (E60)",
+    "builtFrom": "07/2003",
+    "builtTo": "03/2010"
+  }, {
+    "code": "TD-8541",
+    "name": "5 (F10, F18)",
+    "builtFrom": "12/2009",
+    "builtTo": null
+  }, {
+    "code": "TD-8274",
+    "name": "5 Gran Turismo (F07)",
+    "builtFrom": "10/2009",
+    "builtTo": null
+  }, {
+    "code": "TD-459",
+    "name": "5 Touring (E34)",
+    "builtFrom": "11/1991",
+    "builtTo": "01/1997"
+  }, {
+    "code": "TD-1892",
+    "name": "5 Touring (E39)",
+    "builtFrom": "01/1997",
+    "builtTo": "05/2004"
+  }, {
+    "code": "TD-5079",
+    "name": "5 Touring (E61)",
+    "builtFrom": "06/2004",
+    "builtTo": "12/2010"
+  }, {
+    "code": "TD-8762",
+    "name": "5 Touring (F11)",
+    "builtFrom": "04/2010",
+    "builtTo": null
+  }, {
+    "code": "TD-1642",
+    "name": "501",
+    "builtFrom": "07/1952",
+    "builtTo": "01/1959"
+  }, {
+    "code": "TD-3390",
+    "name": "503 kabriolet",
+    "builtFrom": "01/1957",
+    "builtTo": "05/1961"
+  }, {
+    "code": "TD-486",
+    "name": "6 (E24)",
+    "builtFrom": "04/1976",
+    "builtTo": "09/1990"
+  }, {
+    "code": "TD-5086",
+    "name": "6 (E63)",
+    "builtFrom": "01/2004",
+    "builtTo": "12/2010"
+  }, {
+    "code": "TD-11034",
+    "name": "6 Gran Coupe (F06)",
+    "builtFrom": "09/2011",
+    "builtTo": null
+  }, {
+    "code": "TD-9160",
+    "name": "6 coupe (F13)",
+    "builtFrom": "11/2010",
+    "builtTo": null
+  }, {
+    "code": "TD-5087",
+    "name": "6 kabriolet (E64)",
+    "builtFrom": "04/2004",
+    "builtTo": "12/2010"
+  }, {
+    "code": "TD-9159",
+    "name": "6 kabriolet (F12)",
+    "builtFrom": "03/2011",
+    "builtTo": null
+  }, {
+    "code": "TD-4002",
+    "name": "600 (111)",
+    "builtFrom": "12/1957",
+    "builtTo": "05/1961"
+  }, {
+    "code": "TD-539",
+    "name": "7 (E23)",
+    "builtFrom": "05/1977",
+    "builtTo": "08/1986"
+  }, {
+    "code": "TD-544",
+    "name": "7 (E32)",
+    "builtFrom": "09/1986",
+    "builtTo": "09/1994"
+  }, {
+    "code": "TD-549",
+    "name": "7 (E38)",
+    "builtFrom": "10/1994",
+    "builtTo": "11/2001"
+  }, {
+    "code": "TD-4816",
+    "name": "7 (E65, E66, E67)",
+    "builtFrom": "11/2001",
+    "builtTo": "12/2009"
+  }, {
+    "code": "TD-7864",
+    "name": "7 (F01, F02, F03, F04)",
+    "builtFrom": "06/2008",
+    "builtTo": "12/2015"
+  }, {
+    "code": "TD-14283",
+    "name": "7 (G11, G12)",
+    "builtFrom": "09/2015",
+    "builtTo": null
+  }, {
+    "code": "TD-2054",
+    "name": "700 (107)",
+    "builtFrom": "01/1959",
+    "builtTo": "11/1966"
+  }, {
+    "code": "TD-4805",
+    "name": "700 coupe",
+    "builtFrom": "08/1959",
+    "builtTo": "04/1964"
+  }, {
+    "code": "TD-67",
+    "name": "8 (E31)",
+    "builtFrom": "04/1990",
+    "builtTo": "12/1999"
+  }, {
+    "code": "TD-30404",
+    "name": "BAVARIA sedan",
+    "builtFrom": "09/1971",
+    "builtTo": "12/1974"
+  }, {
+    "code": "TD-1435",
+    "name": "ISETTA (100, 101, 102, 103)",
+    "builtFrom": "01/1956",
+    "builtTo": "11/1963"
+  }, {
+    "code": "TD-1790",
+    "name": "M1 (E26)",
+    "builtFrom": "05/1979",
+    "builtTo": "05/1983"
+  }, {
+    "code": "TD-8277",
+    "name": "X1 (E84)",
+    "builtFrom": "03/2009",
+    "builtTo": "06/2015"
+  }, {
+    "code": "TD-14383",
+    "name": "X1 (F48)",
+    "builtFrom": "09/2015",
+    "builtTo": null
+  }, {
+    "code": "TD-5085",
+    "name": "X3 (E83)",
+    "builtFrom": "01/2004",
+    "builtTo": "12/2011"
+  }, {
+    "code": "TD-8763",
+    "name": "X3 (F25)",
+    "builtFrom": "09/2010",
+    "builtTo": null
+  }, {
+    "code": "TD-11945",
+    "name": "X4 (F26)",
+    "builtFrom": "04/2014",
+    "builtTo": null
+  }, {
+    "code": "TD-4343",
+    "name": "X5 (E53)",
+    "builtFrom": "05/2000",
+    "builtTo": "12/2006"
+  }, {
+    "code": "TD-6414",
+    "name": "X5 (E70)",
+    "builtFrom": "02/2007",
+    "builtTo": "06/2013"
+  }, {
+    "code": "TD-11482",
+    "name": "X5 (F15, F85)",
+    "builtFrom": "07/2013",
+    "builtTo": null
+  }, {
+    "code": "TD-7378",
+    "name": "X6 (E71, E72)",
+    "builtFrom": "05/2008",
+    "builtTo": "06/2014"
+  }, {
+    "code": "TD-12845",
+    "name": "X6 (F16, F86)",
+    "builtFrom": "08/2014",
+    "builtTo": null
+  }, {
+    "code": "TD-138",
+    "name": "Z1",
+    "builtFrom": "06/1988",
+    "builtTo": "06/1991"
+  }, {
+    "code": "TD-3483",
+    "name": "Z3 (E36)",
+    "builtFrom": "10/1995",
+    "builtTo": "01/2003"
+  }, {
+    "code": "TD-2079",
+    "name": "Z3 coupe (E36)",
+    "builtFrom": "04/1997",
+    "builtTo": "06/2003"
+  }, {
+    "code": "TD-4924",
+    "name": "Z4 (E85)",
+    "builtFrom": "02/2003",
+    "builtTo": "12/2009"
+  }, {
+    "code": "TD-8033",
+    "name": "Z4 (E89)",
+    "builtFrom": "05/2009",
+    "builtTo": null
+  }, {
+    "code": "TD-5516",
+    "name": "Z4 coupe (E86)",
+    "builtFrom": "03/2006",
+    "builtTo": "01/2009"
+  }, {
+    "code": "TD-4279",
+    "name": "Z8 (E52)",
+    "builtFrom": "06/2000",
+    "builtTo": "06/2003"
+  }, {
+    "code": "TD-11443",
+    "name": "i3 (I01)",
+    "builtFrom": "08/2013",
+    "builtTo": null
+  }, {
+    "code": "TD-11902",
+    "name": "i8 (I12)",
+    "builtFrom": "03/2014",
+    "builtTo": null
+  }]
+  
