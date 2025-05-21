@@ -17,9 +17,9 @@ body {
     --popover: 0 0% 100%;
     --popover-foreground: 210 20% 25%;
 
-    /* Coral for CTA buttons and primary actions */
-    --primary: 16 100% 65.7%; /* #FF7F50 Coral */
-    --primary-foreground: 0 0% 100%; /* White text on Coral */
+    /* Dark Teal for CTA buttons and primary actions */
+    --primary: 197 70% 35%; /* Dark Teal/Blue */
+    --primary-foreground: 0 0% 100%; /* White text on Dark Teal/Blue */
 
     /* Lighter blue for secondary backgrounds */
     --secondary: 197 30% 90%; 
@@ -35,7 +35,7 @@ body {
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 197 30% 80%; /* A softer blue for borders */
+    --border: 210 20% 75%; /* A softer, slightly darker border for cards to match image */
     --input: 0 0% 100%; /* White inputs for contrast on light bg */
     --ring: 197 71.1% 52.4%; /* Deep Ocean Blue for focus rings */
 
@@ -57,7 +57,7 @@ body {
     --popover: 210 20% 10%;
     --popover-foreground: 208 100% 97.1%;
 
-    --primary: 16 100% 65.7%; /* Coral */
+    --primary: 197 70% 40%; /* Dark Teal/Blue for dark mode */
     --primary-foreground: 0 0% 100%;
 
     --secondary: 197 71.1% 20%; /* Darker blue */
@@ -72,7 +72,7 @@ body {
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 197 30% 30%;
+    --border: 210 20% 50%;
     --input: 210 20% 20%;
     --ring: 197 71.1% 52.4%;
 

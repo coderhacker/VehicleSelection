@@ -12,20 +12,19 @@ import {
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { vehicleData } from '@/lib/vehicle-data';
-import { CheckCircle, Car } from 'lucide-react'; // Added Car icon
-import { useToast } from "@/hooks/use-toast";
 
 interface SelectedDetails {
   manufacturer: string;
   model: string;
   type: string;
+  power: string;
+  cubicCapacity: string;
 }
 
 export default function VehicleSelector() {
@@ -37,21 +36,20 @@ export default function VehicleSelector() {
   const [availableTypes, setAvailableTypes] = useState<string[]>([]);
 
   const [confirmedDetails, setConfirmedDetails] = useState<SelectedDetails | null>(null);
-  const { toast } = useToast();
 
   useEffect(() => {
     if (selectedManufacturer) {
       const manufacturerData = vehicleData.find(m => m.name === selectedManufacturer);
       if (manufacturerData) {
         setAvailableModels(manufacturerData.models);
-        setAvailableTypes(manufacturerData.types);
+        setAvailableTypes(manufacturerData.types); // Assuming types are general per manufacturer as per current data model
       } else {
         setAvailableModels([]);
         setAvailableTypes([]);
       }
       setSelectedModel(undefined);
       setSelectedType(undefined);
-      setConfirmedDetails(null); // Reset confirmation when manufacturer changes
+      setConfirmedDetails(null);
     } else {
       setAvailableModels([]);
       setAvailableTypes([]);
@@ -62,14 +60,11 @@ export default function VehicleSelector() {
   }, [selectedManufacturer]);
 
   useEffect(() => {
-    // Reset type if model changes and type was dependent on model (not current logic, but good practice)
-    // Also reset confirmation
     setSelectedType(undefined);
     setConfirmedDetails(null);
   }, [selectedModel]);
   
   useEffect(() => {
-    // Reset confirmation if type changes
     setConfirmedDetails(null);
   }, [selectedType]);
 
@@ -81,38 +76,34 @@ export default function VehicleSelector() {
         manufacturer: selectedManufacturer,
         model: selectedModel,
         type: selectedType,
+        power: "186 KM / 137 KW", // Dummy data as per image
+        cubicCapacity: "2494 ccm", // Dummy data as per image
       };
       setConfirmedDetails(newDetails);
-      toast({
-        title: "Selection Confirmed!",
-        description: `${newDetails.manufacturer} ${newDetails.model} (${newDetails.type}) selected.`,
-        action: <CheckCircle className="text-green-500" />,
-      });
     }
+  };
+
+  const handleReset = () => {
+    setSelectedManufacturer(undefined);
+    // setSelectedModel(undefined); // These will be reset by the useEffect for selectedManufacturer
+    // setSelectedType(undefined);
+    // setConfirmedDetails(null);
   };
 
   const isFormComplete = !!selectedManufacturer && !!selectedModel && !!selectedType;
 
   return (
-    <Card className="w-full shadow-xl border-2 border-primary/20 rounded-lg overflow-hidden">
-      <CardHeader className="bg-muted/30 p-6">
-        <div className="flex items-center space-x-3">
-          <Car className="h-8 w-8 text-primary" />
-          <div>
-            <CardTitle className="text-2xl text-foreground">Vehicle Configuration</CardTitle>
-            <CardDescription className="text-muted-foreground">
-              Choose your vehicle's manufacturer, model, and type.
-            </CardDescription>
-          </div>
-        </div>
-      </CardHeader>
-      <CardContent className="p-6 space-y-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
-          <div className="space-y-1.5">
-            <Label htmlFor="manufacturer-select" className="text-sm font-medium">Manufacturer</Label>
+    <>
+      <Card className="w-full shadow-md">
+        <CardHeader className="p-6">
+          <CardTitle className="text-xl font-semibold text-foreground">Selection by criteria</CardTitle>
+        </CardHeader>
+        <CardContent className="p-6 space-y-6">
+          <div className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-5 items-center">
+            <Label htmlFor="manufacturer-select" className="text-sm text-foreground justify-self-start">Manufacturer:</Label>
             <Select value={selectedManufacturer} onValueChange={setSelectedManufacturer}>
-              <SelectTrigger id="manufacturer-select" className="w-full transition-all duration-150 ease-in-out hover:border-primary focus:ring-primary focus:border-primary">
-                <SelectValue placeholder="Select Manufacturer" />
+              <SelectTrigger id="manufacturer-select" className="w-full">
+                <SelectValue placeholder="-- Select Manufacturer --" />
               </SelectTrigger>
               <SelectContent>
                 {manufacturers.map(m => (
@@ -120,61 +111,78 @@ export default function VehicleSelector() {
                 ))}
               </SelectContent>
             </Select>
-          </div>
 
-          <div className="space-y-1.5">
-            <Label htmlFor="model-select" className="text-sm font-medium">Model</Label>
+            <Label htmlFor="model-select" className="text-sm text-foreground justify-self-start">Vehicle Model:</Label>
             <Select value={selectedModel} onValueChange={setSelectedModel} disabled={!selectedManufacturer || availableModels.length === 0}>
-              <SelectTrigger id="model-select" className="w-full transition-all duration-150 ease-in-out hover:border-primary focus:ring-primary focus:border-primary">
-                <SelectValue placeholder={selectedManufacturer ? "Select Model" : "Select Manufacturer First"} />
+              <SelectTrigger id="model-select" className="w-full">
+                <SelectValue placeholder="-- Select Model --" />
               </SelectTrigger>
               <SelectContent>
                 {availableModels.length > 0 ? availableModels.map(model => (
                   <SelectItem key={model} value={model}>{model}</SelectItem>
-                )) : <div className="p-4 text-sm text-muted-foreground">No models available.</div>}
+                )) : <div className="p-2 text-sm text-muted-foreground">Select Manufacturer First</div>}
               </SelectContent>
             </Select>
-          </div>
 
-          <div className="space-y-1.5">
-            <Label htmlFor="type-select" className="text-sm font-medium">Type</Label>
+            <Label htmlFor="type-select" className="text-sm text-foreground justify-self-start">Vehicle Type:</Label>
             <Select value={selectedType} onValueChange={setSelectedType} disabled={!selectedManufacturer || availableTypes.length === 0}>
-              <SelectTrigger id="type-select" className="w-full transition-all duration-150 ease-in-out hover:border-primary focus:ring-primary focus:border-primary">
-                <SelectValue placeholder={selectedManufacturer ? "Select Type" : "Select Manufacturer First"} />
+              <SelectTrigger id="type-select" className="w-full">
+                <SelectValue placeholder="-- Select Type --" />
               </SelectTrigger>
               <SelectContent>
                 {availableTypes.length > 0 ? availableTypes.map(type => (
                   <SelectItem key={type} value={type}>{type}</SelectItem>
-                )) : <div className="p-4 text-sm text-muted-foreground">No types available.</div>}
+                )) : <div className="p-2 text-sm text-muted-foreground">Select Manufacturer First</div>}
               </SelectContent>
             </Select>
           </div>
-        </div>
+        </CardContent>
+        <CardFooter className="p-6 flex justify-end space-x-3">
+          <Button
+            variant="outline"
+            onClick={handleReset}
+            className="px-6"
+          >
+            RESET
+          </Button>
+          <Button
+            onClick={handleConfirm}
+            disabled={!isFormComplete}
+            className="px-8" 
+            aria-label="Confirm selection"
+          >
+            OK
+          </Button>
+        </CardFooter>
+      </Card>
 
-        {confirmedDetails && (
-          <Card className="mt-6 bg-green-50 border border-green-200 shadow-sm transition-all duration-300 ease-in-out animate-in fade-in-50">
-            <CardHeader className="flex flex-row items-center space-x-3 p-4">
-              <CheckCircle className="h-6 w-6 text-green-600" />
-              <CardTitle className="text-lg text-green-800">Selection Confirmed</CardTitle>
-            </CardHeader>
-            <CardContent className="text-sm space-y-1 px-4 pb-4">
-              <p><strong className="font-medium text-foreground/90">Manufacturer:</strong> {confirmedDetails.manufacturer}</p>
-              <p><strong className="font-medium text-foreground/90">Model:</strong> {confirmedDetails.model}</p>
-              <p><strong className="font-medium text-foreground/90">Type:</strong> {confirmedDetails.type}</p>
-            </CardContent>
-          </Card>
-        )}
-      </CardContent>
-      <CardFooter className="p-6 bg-muted/30">
-        <Button
-          onClick={handleConfirm}
-          disabled={!isFormComplete}
-          className="w-full text-lg py-3 transition-all duration-150 ease-in-out transform hover:scale-105 active:scale-95"
-          aria-label="Confirm selection"
-        >
-          OK
-        </Button>
-      </CardFooter>
-    </Card>
+      {confirmedDetails && (
+        <Card className="w-full shadow-md mt-8">
+          <CardHeader className="p-6">
+            <CardTitle className="text-xl font-semibold text-foreground">Your selection</CardTitle>
+          </CardHeader>
+          <CardContent className="p-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3">
+              <div>
+                <span className="text-sm font-medium text-muted-foreground">Manufacturer Name:</span>
+                <p className="text-sm text-foreground mt-0.5">{confirmedDetails.manufacturer}</p>
+              </div>
+              <div>
+                <span className="text-sm font-medium text-muted-foreground">Power:</span>
+                <p className="text-sm text-foreground mt-0.5">{confirmedDetails.power}</p>
+              </div>
+              <div>
+                <span className="text-sm font-medium text-muted-foreground">Model Name:</span>
+                <p className="text-sm text-foreground mt-0.5">{confirmedDetails.model}</p>
+              </div>
+              <div>
+                <span className="text-sm font-medium text-muted-foreground">CubicCapacity:</span>
+                <p className="text-sm text-foreground mt-0.5">{confirmedDetails.cubicCapacity}</p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+    </>
   );
 }

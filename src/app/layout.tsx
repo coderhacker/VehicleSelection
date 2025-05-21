@@ -14,7 +14,7 @@ const geistSans = Geist({
 // });
 
 export const metadata: Metadata = {
-  title: 'AutoSpec Vehicle Selector',
+  title: 'Vehicle Selection',
   description: 'Select your vehicle manufacturer, model, and type.',
 };
 
