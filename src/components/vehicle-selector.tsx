@@ -46,7 +46,7 @@ interface SelectedDetails {
 }
 
 export default function VehicleSelector() {
-  const [selectedManufacturer, setSelectedManufacturer] = useState<string | undefined>(undefined);
+  const [selectedManufacturer, setSelectedManufacturer] = useState<string | undefined>('undefined');
   const [selectedModel, setSelectedModel] = useState<string | undefined>(undefined);
   const [selectedType, setSelectedType] = useState<string | undefined>(undefined);
   const [confirmedDetails, setConfirmedDetails] = useState<SelectedDetails | null>(null);
