@@ -69,17 +69,22 @@ export default function VehicleSelector() {
     []
   );
 
+  // Effect to reset model and type if manufacturer changes or is cleared
   useEffect(() => {
     setSelectedModel(undefined);
     setSelectedType(undefined);
-    setConfirmedDetails(null);
+    // Confirmed details should also be cleared if the basis of selection changes
+    setConfirmedDetails(null); 
   }, [selectedManufacturer]);
 
+  // Effect to reset type if model changes or is cleared
   useEffect(() => {
     setSelectedType(undefined);
-    setConfirmedDetails(null);
+    // Confirmed details should also be cleared
+    setConfirmedDetails(null); 
   }, [selectedModel]);
   
+  // Effect to clear confirmed details if type changes or is cleared
   useEffect(() => {
     setConfirmedDetails(null);
   }, [selectedType]);
@@ -103,9 +108,9 @@ export default function VehicleSelector() {
 
   const handleReset = () => {
     setSelectedManufacturer(undefined);
-    setSelectedModel(undefined);
-    setSelectedType(undefined);
-    setConfirmedDetails(null);
+    setSelectedModel(undefined); // This will also be handled by useEffect on selectedManufacturer change
+    setSelectedType(undefined);   // This will also be handled by useEffect on selectedModel/selectedManufacturer change
+    setConfirmedDetails(null); // This will also be handled by useEffects
   };
 
   const isFormComplete = !!selectedManufacturer && !!selectedModel && !!selectedType;
