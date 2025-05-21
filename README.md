@@ -3,6 +3,18 @@
 
 This is a Next.js application designed to allow users to select a vehicle based on its manufacturer, model, and type. The selected details are then displayed on the screen.
 
+## Why Next.js?
+
+Next.js was chosen as the framework for this application due to several key advantages it offers:
+
+*   **Developer Experience:** Next.js provides a smooth development workflow with features like fast refresh, TypeScript support out-of-the-box, and an intuitive file-system based router (App Router), making it easier to build and organize the application.
+*   **React Ecosystem:** Built on React, it allows us to leverage the vast React ecosystem, including a rich set of UI libraries like ShadCN UI, which is used in this project.
+*   **Performance Features:** While this application is currently client-side focused, Next.js offers powerful performance optimization features such as server components, image optimization (`next/image`), and automatic code splitting. These lay a strong foundation for future scalability and improved load times.
+*   **Structured Project:** It encourages a well-structured project, which is beneficial for maintainability and collaboration.
+*   **Production-Ready:** Next.js is well-suited for building production-grade applications, offering features for easy deployment and scaling.
+
+These features make Next.js a robust choice for developing modern web applications like the Vehicle Selection App, providing both a great developer experience and a performant end-user product.
+
 ## Local Setup and Running the Application
 
 To set up and run this project locally, follow these steps:
@@ -123,3 +135,4 @@ The application incorporates several accessibility best practices:
 *   The "Your selection" card appears as a direct result of user action and its content is structured semantically, making it accessible. The fade-in animation is purely visual and does not impede accessibility.
 
 This guide should help developers understand the structure, setup, and functionality of the Vehicle Selection application.
+
