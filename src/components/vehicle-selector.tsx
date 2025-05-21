@@ -81,11 +81,14 @@ export default function VehicleSelector() {
 
   const handleConfirm = () => {
     if (selectedManufacturer && selectedModel && selectedType) {
+      const manufacturerDetail = sortedManufacturers.find(m => m.name === selectedManufacturer);
+      const modelDetail = allModels.find(m => m.name === selectedModel);
       const typeDetail = allTypes.find(t => t.name === selectedType);
+      
       const newDetails = {
-        manufacturer: selectedManufacturer,
-        model: selectedModel,
-        type: selectedType,
+        manufacturer: manufacturerDetail?.name || "N/A",
+        model: modelDetail?.name || "N/A",
+        type: typeDetail?.name || "N/A",
         power: typeDetail?.power || "N/A",
         cubicCapacity: typeDetail?.cubicCapacity || "N/A",
       };
@@ -95,8 +98,9 @@ export default function VehicleSelector() {
 
   const handleReset = () => {
     setSelectedManufacturer(undefined);
-    // setSelectedModel and setSelectedType will be reset by their respective useEffect hooks
-    // setConfirmedDetails(null); is also handled by useEffect
+    setSelectedModel(undefined);
+    setSelectedType(undefined);
+    setConfirmedDetails(null);
   };
 
   const isFormComplete = !!selectedManufacturer && !!selectedModel && !!selectedType;
@@ -182,7 +186,7 @@ export default function VehicleSelector() {
       </Card>
 
       {confirmedDetails && (
-        <Card className="w-full shadow-md mt-8 animate-in fade-in duration-500 ease-out">
+        <Card className="w-full shadow-md mt-8 animate-in fade-in-0 duration-500 ease-out">
           <CardHeader className="p-6">
             <CardTitle className="text-xl font-semibold text-foreground">Your selection</CardTitle>
           </CardHeader>
