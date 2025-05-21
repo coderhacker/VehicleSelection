@@ -1,4 +1,4 @@
-# **App Name**: AutoSpec
+# **App Name**: Vehicle Selection App
 
 ## Core Features:
 
