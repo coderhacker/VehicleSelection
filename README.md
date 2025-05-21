@@ -1,16 +1,36 @@
+
 #  Vehicle Selection App
 
 This is a Next.js application designed to allow users to select a vehicle based on its manufacturer, model, and type. The selected details are then displayed on the screen.
 
-## Running the Application
+## Local Setup and Running the Application
 
-To get started with the development server:
+To set up and run this project locally, follow these steps:
 
-```bash
-npm run dev
-```
+1.  **Prerequisites:**
+    *   Ensure you have [Node.js](https://nodejs.org/) installed (which includes npm). Version 18.x or later is recommended.
 
-This will typically start the application on `http://localhost:9002`.
+2.  **Clone the Repository (if you haven't already):**
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+
+3.  **Install Dependencies:**
+    Open your terminal in the project's root directory and run:
+    ```bash
+    npm install
+    ```
+    This command will download and install all the necessary packages defined in `package.json`.
+
+4.  **Run the Development Server:**
+    Once the dependencies are installed, start the Next.js development server:
+    ```bash
+    npm run dev
+    ```
+    This will start the application, typically on `http://localhost:9002` (as configured in `package.json`). Open this URL in your web browser to see the application.
+
+    The app will automatically reload if you make changes to the code.
 
 ## Project Structure and Key Components
 
@@ -47,25 +67,24 @@ This is the heart of the application.
         *   `confirmedDetails`: An object holding the details of the confirmed selection (manufacturer, model, type, power, cubicCapacity) or `null` if no selection is confirmed.
     *   **Data Loading**:
         *   Imports `manufacturersData`, `modelsData`, and `typesData` from `src/lib/vehicle-data.ts`.
-        *   Uses `useMemo` to sort the manufacturer, model, and type lists alphabetically for display in the dropdowns.
+        *   Uses `useMemo` to sort the manufacturer, model, and type lists alphabetically for display in the dropdowns. Each item uses its unique `code` for the `key` prop and `name` for the `value` and display.
     *   **Dropdowns (ShadCN `Select` component)**:
-        *   **Manufacturer Dropdown**: Populated with data from `manufacturersData`.
-        *   **Model Dropdown**: Populated with all models from `modelsData`. Disabled until a manufacturer is selected.
-        *   **Type Dropdown**: Populated with all types from `typesData`. Disabled until a model is selected.
-        *   Each `SelectItem` uses the unique `code` for its `key` and the `name` for its `value` and display.
+        *   **Manufacturer Dropdown**: Populated with data from `manufacturersData`. Placeholder: "-- Select Manufacturer --".
+        *   **Model Dropdown**: Populated with all models from `modelsData`. Disabled until a manufacturer is selected. Placeholder: "-- Select Model --".
+        *   **Type Dropdown**: Populated with all types from `typesData`. Disabled until a model is selected. Placeholder: "-- Select Type --".
     *   **"OK" Button**:
         *   Enabled only when all three selections (manufacturer, model, type) are made.
         *   On click (`handleConfirm`), it populates the `confirmedDetails` state with the chosen vehicle's properties.
     *   **"RESET" Button**:
-        *   On click (`handleReset`), it clears all selections (`selectedManufacturer`, `selectedModel`, `selectedType` are set to `undefined`) and the `confirmedDetails` (set to `null`), returning the form to its initial state. This also re-disables dependent dropdowns as expected.
+        *   On click (`handleReset`), it explicitly clears all selections by setting `selectedManufacturer`, `selectedModel`, `selectedType` to `undefined`, and `confirmedDetails` to `null`. This returns the form to its initial state, displaying placeholders in dropdowns and re-disabling dependent dropdowns as expected.
     *   **"Your selection" Card**:
         *   A `Card` component that becomes visible only after a selection is confirmed (i.e., `confirmedDetails` is not `null`).
         *   Displays the Manufacturer Name, Model Name, Power, and Cubic Capacity of the selected vehicle. "Power" and "Cubic Capacity" are taken from the selected type's data if available, otherwise "N/A" is shown.
-        *   Features a subtle fade-in animation when it appears.
+        *   Features a subtle fade-in animation (`animate-in fade-in-0 duration-500 ease-out`) when it appears.
     *   **Dynamic Updates**: `useEffect` hooks are used to:
         *   Reset `selectedModel` and `selectedType` if `selectedManufacturer` changes.
         *   Reset `selectedType` if `selectedModel` changes.
-        *   Clear `confirmedDetails` if any of the primary selections (`selectedManufacturer`, `selectedModel`, `selectedType`) change, ensuring the displayed details are always consistent with the current dropdown values *before* a new confirmation.
+        *   Clear `confirmedDetails` if any of the primary selections (`selectedManufacturer`, `selectedModel`, `selectedType`) change before a new confirmation.
 
 ### 4. Vehicle Data Handling (`src/lib/vehicle-data.ts`)
 
@@ -96,10 +115,11 @@ This is the heart of the application.
 ## Accessibility (A11y)
 
 The application incorporates several accessibility best practices:
-*   Semantic HTML elements are used where appropriate.
-*   `Label` components are correctly associated with their form controls (`Select` components) using `htmlFor` and `id` attributes.
-*   Interactive elements like buttons have clear text or `aria-label` attributes.
-*   Disabled states are visually and programmatically applied to controls when they are not interactive.
-*   The ShadCN UI components used are generally designed with accessibility in mind.
+*   Semantic HTML elements are used where appropriate (e.g., `<main>`, `<header>`, `<button>`).
+*   `Label` components are correctly associated with their form controls (`Select` components) using `htmlFor` and `id` attributes, ensuring screen readers can announce the purpose of each control.
+*   Interactive elements like buttons have clear text or `aria-label` attributes (e.g., the "OK" button has `aria-label="Confirm selection"`).
+*   Disabled states are visually and programmatically applied to controls when they are not interactive, preventing user interaction and communicating the state to assistive technologies.
+*   The ShadCN UI components used are generally designed with accessibility in mind, including keyboard navigation and ARIA attribute usage.
+*   The "Your selection" card appears as a direct result of user action and its content is structured semantically, making it accessible. The fade-in animation is purely visual and does not impede accessibility.
 
-This guide should help developers understand the structure and functionality of the Vehicle Selection application.
+This guide should help developers understand the structure, setup, and functionality of the Vehicle Selection application.
