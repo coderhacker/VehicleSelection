@@ -1,4 +1,4 @@
-# AutoSpec: Vehicle Selection App
+#  Vehicle Selection App
 
 This is a Next.js application designed to allow users to select a vehicle based on its manufacturer, model, and type. The selected details are then displayed on the screen.
 
@@ -102,4 +102,4 @@ The application incorporates several accessibility best practices:
 *   Disabled states are visually and programmatically applied to controls when they are not interactive.
 *   The ShadCN UI components used are generally designed with accessibility in mind.
 
-This guide should help developers understand the structure and functionality of the AutoSpec application.
+This guide should help developers understand the structure and functionality of the Vehicle Selection application.
