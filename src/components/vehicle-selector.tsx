@@ -51,14 +51,19 @@ export default function VehicleSelector() {
   const [selectedType, setSelectedType] = useState<string | undefined>(undefined);
   const [confirmedDetails, setConfirmedDetails] = useState<SelectedDetails | null>(null);
 
+  // Sort manufacturers by name
   const sortedManufacturers: ManufacturerEntry[] = useMemo(() =>
     [...manufacturersData].sort((a, b) => a.name.localeCompare(b.name)),
     []
   );
+
+  // Sort all models by name
   const allModels: ModelEntry[] = useMemo(() =>
     [...modelsData].sort((a, b) => a.name.localeCompare(b.name)),
     []
   );
+
+  // Sort all types by name
   const allTypes: TypeEntry[] = useMemo(() =>
     [...typesData].sort((a, b) => a.name.localeCompare(b.name)),
     []
@@ -85,7 +90,7 @@ export default function VehicleSelector() {
       const modelDetail = allModels.find(m => m.name === selectedModel);
       const typeDetail = allTypes.find(t => t.name === selectedType);
       
-      const newDetails = {
+      const newDetails: SelectedDetails = {
         manufacturer: manufacturerDetail?.name || "N/A",
         model: modelDetail?.name || "N/A",
         type: typeDetail?.name || "N/A",
@@ -177,7 +182,7 @@ export default function VehicleSelector() {
           <Button
             onClick={handleConfirm}
             disabled={!isFormComplete}
-            className="px-8"
+            className="px-8 bg-primary hover:bg-primary/90"
             aria-label="Confirm selection"
           >
             OK
