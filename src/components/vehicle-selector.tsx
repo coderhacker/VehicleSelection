@@ -20,6 +20,23 @@ import {
 import { Label } from "@/components/ui/label";
 import { manufacturersData, modelsData, typesData } from '@/lib/vehicle-data';
 
+interface ManufacturerEntry {
+  code: string;
+  name: string;
+}
+
+interface ModelEntry {
+  code: string;
+  name: string;
+}
+
+interface TypeEntry {
+  code: string;
+  name: string;
+  power?: string;
+  cubicCapacity?: string;
+}
+
 interface SelectedDetails {
   manufacturer: string;
   model: string;
@@ -34,15 +51,15 @@ export default function VehicleSelector() {
   const [selectedType, setSelectedType] = useState<string | undefined>(undefined);
   const [confirmedDetails, setConfirmedDetails] = useState<SelectedDetails | null>(null);
 
-  const sortedManufacturers = useMemo(() =>
+  const sortedManufacturers: ManufacturerEntry[] = useMemo(() =>
     [...manufacturersData].sort((a, b) => a.name.localeCompare(b.name)),
     []
   );
-  const sortedModels = useMemo(() =>
+  const allModels: ModelEntry[] = useMemo(() =>
     [...modelsData].sort((a, b) => a.name.localeCompare(b.name)),
     []
   );
-  const sortedTypes = useMemo(() =>
+  const allTypes: TypeEntry[] = useMemo(() =>
     [...typesData].sort((a, b) => a.name.localeCompare(b.name)),
     []
   );
@@ -64,8 +81,7 @@ export default function VehicleSelector() {
 
   const handleConfirm = () => {
     if (selectedManufacturer && selectedModel && selectedType) {
-      // Find the first matching type by name. If names are not unique, this picks the first one.
-      const typeDetail = typesData.find(t => t.name === selectedType);
+      const typeDetail = allTypes.find(t => t.name === selectedType);
       const newDetails = {
         manufacturer: selectedManufacturer,
         model: selectedModel,
@@ -80,7 +96,7 @@ export default function VehicleSelector() {
   const handleReset = () => {
     setSelectedManufacturer(undefined);
     // setSelectedModel and setSelectedType will be reset by their respective useEffect hooks
-    // setConfirmedDetails(null); // Also reset by useEffect
+    // setConfirmedDetails(null); is also handled by useEffect
   };
 
   const isFormComplete = !!selectedManufacturer && !!selectedModel && !!selectedType;
@@ -109,13 +125,13 @@ export default function VehicleSelector() {
             <Select
               value={selectedModel}
               onValueChange={setSelectedModel}
-              disabled={!selectedManufacturer || sortedModels.length === 0}
+              disabled={!selectedManufacturer || allModels.length === 0}
             >
               <SelectTrigger id="model-select" className="w-full">
                 <SelectValue placeholder="-- Select Model --" />
               </SelectTrigger>
               <SelectContent>
-                {sortedModels.length > 0 ? sortedModels.map(model => (
+                {allModels.length > 0 ? allModels.map(model => (
                   <SelectItem key={model.code} value={model.name}>{model.name}</SelectItem>
                 )) : (
                   <div className="p-2 text-sm text-muted-foreground">
@@ -129,13 +145,13 @@ export default function VehicleSelector() {
             <Select
               value={selectedType}
               onValueChange={setSelectedType}
-              disabled={!selectedModel || sortedTypes.length === 0}
+              disabled={!selectedModel || allTypes.length === 0}
             >
               <SelectTrigger id="type-select" className="w-full">
                 <SelectValue placeholder="-- Select Type --" />
               </SelectTrigger>
               <SelectContent>
-                {sortedTypes.length > 0 ? sortedTypes.map(type => (
+                {allTypes.length > 0 ? allTypes.map(type => (
                   <SelectItem key={type.code} value={type.name}>{type.name}</SelectItem>
                 )) : (
                   <div className="p-2 text-sm text-muted-foreground">
@@ -166,7 +182,7 @@ export default function VehicleSelector() {
       </Card>
 
       {confirmedDetails && (
-        <Card className="w-full shadow-md mt-8">
+        <Card className="w-full shadow-md mt-8 animate-in fade-in duration-500 ease-out">
           <CardHeader className="p-6">
             <CardTitle className="text-xl font-semibold text-foreground">Your selection</CardTitle>
           </CardHeader>
