@@ -73,18 +73,16 @@ export default function VehicleSelector() {
   useEffect(() => {
     setSelectedModel(undefined);
     setSelectedType(undefined);
-    // Confirmed details should also be cleared if the basis of selection changes
     setConfirmedDetails(null); 
   }, [selectedManufacturer]);
 
   // Effect to reset type if model changes or is cleared
   useEffect(() => {
     setSelectedType(undefined);
-    // Confirmed details should also be cleared
     setConfirmedDetails(null); 
   }, [selectedModel]);
   
-  // Effect to clear confirmed details if type changes or is cleared
+  // Effect to clear confirmed details if type changes or is cleared (before a new confirm)
   useEffect(() => {
     setConfirmedDetails(null);
   }, [selectedType]);
@@ -108,9 +106,11 @@ export default function VehicleSelector() {
 
   const handleReset = () => {
     setSelectedManufacturer(undefined);
-    setSelectedModel(undefined); // This will also be handled by useEffect on selectedManufacturer change
-    setSelectedType(undefined);   // This will also be handled by useEffect on selectedModel/selectedManufacturer change
-    setConfirmedDetails(null); // This will also be handled by useEffects
+    // The useEffect for selectedManufacturer will handle resetting dependent states (model, type, confirmedDetails)
+    // Explicitly setting them here is also fine and can be more direct.
+    setSelectedModel(undefined); 
+    setSelectedType(undefined);   
+    setConfirmedDetails(null); 
   };
 
   const isFormComplete = !!selectedManufacturer && !!selectedModel && !!selectedType;
